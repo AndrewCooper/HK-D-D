@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="287d633221fb8428aa2526883b91cf844984a897">
+	<image>
+		<category name="Monster Manual - Portraits" baseicon="2" decalicon="1">
+			<id-00132>
+				<public />
+				<image type="image">
+					<bitmap>Doppleganger.jpg</bitmap>
+				</image>
+			</id-00132>
+		</category>
+		<category name="Out of the Abyss - DM Maps" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Maps" baseicon="2" decalicon="1">
+		</category>
+		<category name="Out of the Abyss - Portraits (Character)" baseicon="2" decalicon="1">
+			<id-00019>
+				<image type="image">
+					<bitmap>Demogorgon.jpg</bitmap>
+				</image>
+			</id-00019>
+		</category>
+		<category name="Out of the Abyss - Portraits (Other)" baseicon="2" decalicon="1">
+			<id-00018>
+				<image type="image">
+					<bitmap>Demogorgon Rises.jpg</bitmap>
+				</image>
+			</id-00018>
+			<id-00221>
+				<image type="image">
+					<bitmap>Demogorgon Appendix Art.jpg</bitmap>
+				</image>
+			</id-00221>
+		</category>
+	</image>
+</root>

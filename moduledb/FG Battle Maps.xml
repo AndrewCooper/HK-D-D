@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="ed912deeed4bf435df1e7716ce908d893ed7da90">
+	<image>
+		<category name="FG Battle Maps" baseicon="0" decalicon="0">
+			<id-00008>
+				<image type="image">
+					<bitmap>BattleMap01.jpg</bitmap>
+				</image>
+			</id-00008>
+			<id-00009>
+				<image type="image">
+					<bitmap>BattleMap02.jpg</bitmap>
+				</image>
+			</id-00009>
+			<id-00010>
+				<image type="image">
+					<bitmap>BattleMap03.jpg</bitmap>
+				</image>
+			</id-00010>
+			<id-00011>
+				<image type="image">
+					<bitmap>BattleMap04.jpg</bitmap>
+				</image>
+			</id-00011>
+			<id-00012>
+				<image type="image">
+					<bitmap>BattleMap05.jpg</bitmap>
+				</image>
+			</id-00012>
+			<id-00013>
+				<image type="image">
+					<bitmap>BattleMap_Cave01.jpg</bitmap>
+				</image>
+			</id-00013>
+			<id-00016>
+				<public />
+				<image type="image">
+					<bitmap>BattleMap_outdoor1.jpg</bitmap>
+					<drawing>drawings/drawing_1475205918.png</drawing>
+					<tokens>
+						<idcounter>31</idcounter>
+						<scalelock>2.25</scalelock>
+						<token>
+							<prototype>tokens/dwarf_female_adventurer_A_01.png@Character Pogs</prototype>
+							<id>3</id>
+							<x>474</x>
+							<y>461</y>
+							<name>Bronselyn</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00003_token</prototype>
+							<id>4</id>
+							<x>488</x>
+							<y>270</y>
+							<name>Tymenos</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00002_token</prototype>
+							<id>1</id>
+							<x>340</x>
+							<y>265</y>
+							<name>Acilper</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00001_token</prototype>
+							<id>2</id>
+							<x>363</x>
+							<y>503</y>
+							<name>Dorgib</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/H.png@DD Lost Mine of Phandelver</prototype>
+							<id>5</id>
+							<x>235</x>
+							<y>311</y>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+					</tokens>
+				</image>
+			</id-00016>
+			<id-00017>
+				<image type="image">
+					<bitmap>BattleMap_outdoor2.jpg</bitmap>
+				</image>
+			</id-00017>
+			<id-00018>
+				<image type="image">
+					<bitmap>Streets1.jpg</bitmap>
+				</image>
+			</id-00018>
+			<id-00019>
+				<image type="image">
+					<bitmap>Streets2.jpg</bitmap>
+				</image>
+			</id-00019>
+			<id-00020>
+				<image type="image">
+					<bitmap>Streets3.jpg</bitmap>
+				</image>
+			</id-00020>
+			<id-00021>
+				<image type="image">
+					<bitmap>Streets4.jpg</bitmap>
+				</image>
+			</id-00021>
+			<id-00022>
+				<image type="image">
+					<bitmap>Underdark_tunnels_A.jpg</bitmap>
+				</image>
+			</id-00022>
+			<id-00033>
+				<image type="image">
+					<bitmap>Underdark_tunnels_Y-Intersection_and_Side_Cave.jpg</bitmap>
+				</image>
+			</id-00033>
+			<id-00047>
+				<image type="image">
+					<bitmap>Underdark_tunnels_wide_paths.jpg</bitmap>
+				</image>
+			</id-00047>
+		</category>
+	</image>
+</root>

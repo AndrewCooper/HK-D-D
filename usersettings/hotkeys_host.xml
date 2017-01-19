@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<hotkeys version="3.2">
+	<bank number="0">
+		<key number="0">
+			<description>Individual Treasure: Challenge 00-04</description>
+			<icon>button_link</icon>
+			<dbref>tables.tab_individualtreasure_challenge00_04@DD Dungeon Masters Guide</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>table</class>
+						<datasource>tables.tab_individualtreasure_challenge00_04@DD Dungeon Masters Guide</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="1">
+			<description>Critical Hit</description>
+			<icon>button_link</icon>
+			<dbref>tables.criticalhit@Default Fumble and Critical Hit Tables</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>table</class>
+						<datasource>tables.criticalhit@Default Fumble and Critical Hit Tables</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="2">
+			<description>Fumble</description>
+			<icon>button_link</icon>
+			<dbref>tables.fumble@Default Fumble and Critical Hit Tables</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>table</class>
+						<datasource>tables.fumble@Default Fumble and Critical Hit Tables</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="3">
+			<description>P3-08.00 Cragmaw Castle</description>
+			<icon>button_link</icon>
+			<dbref>encounter.enc_p3_08_00cragmawcastle@DD Lost Mine of Phandelver</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>encounter</class>
+						<datasource>encounter.enc_p3_08_00cragmawcastle@DD Lost Mine of Phandelver</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="4">
+			<description>The Sword Coast (Player)</description>
+			<icon>button_link</icon>
+			<dbref>image.img_theswordcoast_player__jpg@DD Lost Mine of Phandelver</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>imagewindow</class>
+						<datasource>image.img_theswordcoast_player__jpg@DD Lost Mine of Phandelver</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="5">
+			<description>Phandalin</description>
+			<icon>button_link</icon>
+			<dbref>image.img_phandalin_jpg@DD Lost Mine of Phandelver</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>imagewindow</class>
+						<datasource>image.img_phandalin_jpg@DD Lost Mine of Phandelver</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="6">
+			<description>Sylvan Forest Encounters</description>
+			<icon>button_link</icon>
+			<dbref>tables.tab_sylvanforestencounters@DD Dungeon Masters Guide</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>table</class>
+						<datasource>tables.tab_sylvanforestencounters@DD Dungeon Masters Guide</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="7">
+			<description>Spell Index</description>
+			<icon>button_link</icon>
+			<dbref>reference.spelllists._index_@DD PHB Deluxe</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>reference_colindex</class>
+						<datasource>reference.spelllists._index_@DD PHB Deluxe</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+	</bank>
+	<bank number="1">
+	</bank>
+	<bank number="2">
+	</bank>
+	<bank number="3">
+	</bank>
+	<bank number="4">
+	</bank>
+	<bank number="5">
+	</bank>
+	<bank number="6">
+	</bank>
+	<bank number="7">
+	</bank>
+</hotkeys>

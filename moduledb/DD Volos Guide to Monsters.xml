@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="a7b9a87900f32c145676ef90d62ae5b31aadb71f">
+	<battle>
+		<category name="Volos Guide to Monsters" baseicon="2" decalicon="1">
+			<bat_greenhag>
+				<cr type="string">6</cr>
+				<exp type="number">2100</exp>
+				<locked type="number">1</locked>
+				<category name="DD Volos Guide to Monsters" baseicon="0" decalicon="0">
+				</category>
+			</bat_greenhag>
+			<bat_nighthag>
+				<cr type="string">10</cr>
+				<exp type="number">5400</exp>
+				<locked type="number">1</locked>
+				<category name="DD Volos Guide to Monsters" baseicon="0" decalicon="0">
+				</category>
+			</bat_nighthag>
+			<bat_seahag>
+				<cr type="string">5</cr>
+				<exp type="number">1350</exp>
+				<locked type="number">0</locked>
+				<category name="DD Volos Guide to Monsters" baseicon="0" decalicon="0">
+				</category>
+			</bat_seahag>
+		</category>
+	</battle>
+	<tables>
+		<category name="Volos Guide to Monsters" baseicon="2" decalicon="1">
+			<tab_hagnames>
+				<hiderollresults type="number">1</hiderollresults>
+				<category name="DD Volos Guide to Monsters" baseicon="0" decalicon="0">
+				</category>
+			</tab_hagnames>
+		</category>
+	</tables>
+</root>

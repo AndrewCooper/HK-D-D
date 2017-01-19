@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="a966330f8375888fa1930cd2cedddd839e7961b9">
+	<reference>
+		<category name="DD MM Monster Manual" baseicon="0" decalicon="0">
+			<imagedata>
+				<category name="DD MM Monster Manual" baseicon="0" decalicon="0">
+					<img_banditcaptain_jpg>
+						<image type="image">
+							<bitmap>images/Bandit Captain.jpg</bitmap>
+						</image>
+					</img_banditcaptain_jpg>
+					<img_dustmephit_jpg>
+						<image type="image">
+							<bitmap>images/Dust Mephit.jpg</bitmap>
+						</image>
+					</img_dustmephit_jpg>
+					<img_greenhag_jpg>
+						<image type="image">
+							<bitmap>images/Green Hag.jpg</bitmap>
+						</image>
+					</img_greenhag_jpg>
+					<img_half_ogre_jpg>
+						<public />
+						<image type="image">
+							<bitmap>images/Half-Ogre.jpg</bitmap>
+						</image>
+					</img_half_ogre_jpg>
+					<img_magmamephit_jpg>
+						<image type="image">
+							<bitmap>images/Magma Mephit.jpg</bitmap>
+						</image>
+					</img_magmamephit_jpg>
+					<img_mudmephit_jpg>
+						<image type="image">
+							<bitmap>images/Mud Mephit.jpg</bitmap>
+						</image>
+					</img_mudmephit_jpg>
+					<img_nighthag_jpg>
+						<image type="image">
+							<bitmap>images/Night Hag.jpg</bitmap>
+						</image>
+					</img_nighthag_jpg>
+					<img_stirge_jpg>
+						<image type="image">
+							<bitmap>images/Stirge.jpg</bitmap>
+						</image>
+					</img_stirge_jpg>
+					<img_tarrasque_jpg>
+						<public />
+						<image type="image">
+							<bitmap>images/Tarrasque.jpg</bitmap>
+						</image>
+					</img_tarrasque_jpg>
+				</category>
+			</imagedata>
+		</category>
+	</reference>
+</root>

@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<windowstate version="3.2">
+	<window data="" class="charsheet_healthcalc" pos="758,525,1158,645" />
+	<window data="" class="library" pos="667,113,1647,876" />
+	<window data="" class="lightingselection" pos="637,208,802,668" />
+	<window data="" class="moduleselection" pos="426,2,1126,938" />
+	<window data="" class="npc" pos="1141,475,1601,1025" />
+	<window data="" class="pointerselection" pos="585,311,835,566" />
+	<window data="" class="portraitselection" pos="347,68,802,640" />
+	<window data="" class="reference_background" pos="785,350,1135,700" />
+	<window data="" class="select_dialog" pos="785,325,1135,725" />
+	<window data="" class="tokenbag" pos="559,355,1476,1160" />
+	<window data="" class="wcHelpWindowWide" pos="95,-3,745,647" />
+	<window data="MJB_Locations" class="wcLocationMasterListsWindow" pos="63,26,597,656" />
+	<window data="MJB_Locations.Building.id-00001" class="wcBuilding" pos="83,94,483,730" />
+	<window data="MJB_Locations.Building.id-00002" class="wcBuilding" pos="78,90,478,726" />
+	<window data="MJB_Locations.Building.id-00003" class="wcBuilding" pos="83,79,483,715" />
+	<window data="MJB_Locations.Building.id-00004" class="wcBuilding" pos="86,85,486,721" />
+	<window data="MJB_Locations.Building.id-00005" class="wcBuilding" pos="93,89,493,725" />
+	<window data="MJB_Locations.Building.id-00006" class="wcBuilding" pos="70,89,470,725" />
+	<window data="MJB_Locations.Building.id-00007" class="wcBuilding" pos="44,87,444,723" />
+	<window data="MJB_Locations.Building.id-00008" class="wcBuilding" pos="76,130,476,766" />
+	<window data="MJB_Locations.Building.id-00009" class="wcBuilding" pos="117,55,517,691" />
+	<window data="MJB_Locations.Building.id-00010" class="wcBuilding" pos="100,58,500,694" />
+	<window data="MJB_Locations.Location.id-00001" class="wcLocation" pos="146,20,496,742" />
+	<window data="MJB_Locations.Location.id-00003" class="wcLocation" pos="100,56,450,778" />
+	<window data="MJB_Locations.Location.id-00005" class="wcLocation" pos="494,159,844,814" />
+	<window data="MJB_Locations.Location.id-00006" class="wcLocation" pos="617,182,967,904" />
+	<window data="MJB_Locations.Location.id-00007" class="wcLocation" pos="115,59,465,781" />
+	<window data="MJB_Locations.Town.id-00002" class="wcTown" pos="15,24,365,593" />
+	<window data="MJB_Locations.Town.id-00003" class="wcTown" pos="668,19,1018,655" />
+	<window data="MJB_Locations.Town.id-00004" class="wcTown" pos="545,120,895,756" />
+	<window data="MJB_Locations.Town.id-00005" class="wcTown" pos="545,120,895,756" />
+	<window data="MJB_Locations.Town.id-00006" class="wcTown" pos="545,120,895,756" />
+	<window data="MJB_Locations.Town.id-00007" class="wcTown" pos="545,120,895,756" />
+	<window data="MJB_Locations.World.id-00001" class="wcWorld" pos="416,198,809,700" />
+	<window data="MJB_Organisations" class="wcOrganisationsMasterWindow" pos="555,238,885,638" />
+	<window data="MJB_Sound" class="wcSoundMasterListsWindow" pos="448,265,778,595" />
+	<window data="MJB_Weather" class="wcWeatherMasterWindow" pos="448,230,778,630" />
+	<window data="battle" class="battlelist" pos="426,247,906,897" />
+	<window data="battle.bat_annishag@DD Volos Guide to Monsters" class="battle" pos="781,323,1131,723" />
+	<window data="battle.bat_bheurhag@DD Volos Guide to Monsters" class="battle" pos="781,323,1131,723" />
+	<window data="battle.bat_greenhag@DD Volos Guide to Monsters" class="battle" pos="781,323,1131,723" />
+	<window data="battle.bat_nighthag@DD Volos Guide to Monsters" class="battle" pos="781,323,1131,723" />
+	<window data="battle.bat_p2_06forestencounter@DD Dungeon Masters Guide" class="battle" pos="785,325,1135,725" />
+	<window data="battle.bat_p2_06redbrandruffians@DD Lost Mine of Phandelver" class="battle" pos="449,677,799,1077" />
+	<window data="battle.bat_p2_07_02_barracks@DD Lost Mine of Phandelver" class="battle" pos="151,598,501,998" />
+	<window data="battle.bat_p2_07_04_tresendarcrypts@DD Lost Mine of Phandelver" class="battle" pos="885,692,1235,1092" />
+	<window data="battle.bat_p2_07_05_slavepens@DD Lost Mine of Phandelver" class="battle" pos="443,509,793,909" />
+	<window data="battle.bat_p2_07_08_crevasse@DD Lost Mine of Phandelver" class="battle" pos="891,383,1241,783" />
+	<window data="battle.bat_p2_07_09_guardbarracks@DD Lost Mine of Phandelver" class="battle" pos="785,325,1135,725" />
+	<window data="battle.bat_p2_07_12_glasstaff_squarters@DD Lost Mine of Phandelver" class="battle" pos="743,485,1093,885" />
+	<window data="battle.bat_p2_09forestencounter@DD Dungeon Masters Guide" class="battle" pos="781,323,1131,723" />
+	<window data="battle.bat_p3_05oldowlwell@DD Lost Mine of Phandelver" class="battle" pos="2255,20,2605,420" />
+	<window data="battle.bat_p3_06_08_oldsmithy@DD Lost Mine of Phandelver" class="battle" pos="785,325,1135,725" />
+	<window data="battle.bat_p3_06_11_oldgarrison@DD Lost Mine of Phandelver" class="battle" pos="781,323,1131,723" />
+	<window data="battle.bat_p3_07orccamp@DD Lost Mine of Phandelver" class="battle" pos="1101,140,1451,540" />
+	<window data="battle.bat_p3_08_03_archerposta@DD Lost Mine of Phandelver" class="battle" pos="891,383,1241,783" />
+	<window data="battle.bat_p3_08_03_archerpostb@DD Lost Mine of Phandelver" class="battle" pos="891,383,1241,783" />
+	<window data="battle.bat_p3_08_14_king_squarters@DD Lost Mine of Phandelver" class="battle" pos="193,326,543,726" />
+	<window data="battle.bat_seahag@DD Volos Guide to Monsters" class="battle" pos="781,323,1131,723" />
+	<window data="battle.id-00001" class="battle" pos="635,86,985,486" />
+	<window data="battle.id-00002" class="battle" pos="579,92,929,492" />
+	<window data="battle.id-00003" class="battle" pos="1139,65,1489,465" />
+	<window data="battle.id-00004" class="battle" pos="1661,18,2011,418" />
+	<window data="battle.id-00005" class="battle" pos="1069,572,1419,972" />
+	<window data="calendar" class="calendar" pos="118,125,864,852" />
+	<window data="calendar.log" class="loglist" pos="570,238,870,638" />
+	<window data="charsheet" class="charsheet_healthcalc" pos="758,525,1158,645" />
+	<window data="charsheet.id-00001" class="charsheet" pos="402,341,852,911" />
+	<window data="charsheet.id-00001" class="charsheet_classes" pos="1139,51,1609,351" />
+	<window data="charsheet.id-00001" class="charsheet_combatcalc" pos="707,394,1207,614" />
+	<window data="charsheet.id-00001" class="charsheet_healthcalc" pos="915,537,1315,657" />
+	<window data="charsheet.id-00001.featurelist.id-00002" class="ref_ability" pos="1101,346,1539,842" />
+	<window data="charsheet.id-00001.featurelist.id-00003" class="ref_ability" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.featurelist.id-00005" class="ref_ability" pos="784,352,1134,702" />
+	<window data="charsheet.id-00001.featurelist.id-00006" class="ref_ability" pos="1,18,501,537" />
+	<window data="charsheet.id-00001.inventorylist.id-00005" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.inventorylist.id-00008" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.inventorylist.id-00009" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.inventorylist.id-00010" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.inventorylist.id-00014" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.inventorylist.id-00021" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.inventorylist.id-00023" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powergroup.id-00001" class="power_groupdetail" pos="745,380,1175,670" />
+	<window data="charsheet.id-00001.powergroup.id-00002" class="power_groupdetail" pos="1077,253,1507,543" />
+	<window data="charsheet.id-00001.powergroup.id-00004" class="power_groupdetail" pos="745,380,1175,670" />
+	<window data="charsheet.id-00001.powers.id-00003" class="power" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00003.actions.id-00001" class="power_effect_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00004.actions.id-00001" class="power_effect_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00005.actions.id-00001" class="power_effect_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00006.actions.id-00001" class="power_effect_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00006.actions.id-00002" class="power_heal_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00012" class="power" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00014" class="power" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.powers.id-00018" class="power" pos="785,350,1135,700" />
+	<window data="charsheet.id-00001.traitlist.id-00002" class="ref_ability" pos="784,352,1134,702" />
+	<window data="charsheet.id-00001.weaponlist.id-00004" class="char_weapon_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002" class="charsheet" pos="1356,433,1806,1003" />
+	<window data="charsheet.id-00002" class="charsheet_classes" pos="471,638,941,938" />
+	<window data="charsheet.id-00002" class="charsheet_combatcalc" pos="128,598,628,818" />
+	<window data="charsheet.id-00002" class="charsheet_healthcalc" pos="760,465,1160,585" />
+	<window data="charsheet.id-00002.featurelist.id-00001" class="ref_ability" pos="782,352,1132,702" />
+	<window data="charsheet.id-00002.featurelist.id-00002" class="ref_ability" pos="592,427,942,777" />
+	<window data="charsheet.id-00002.featurelist.id-00003" class="ref_ability" pos="545,263,895,613" />
+	<window data="charsheet.id-00002.featurelist.id-00004" class="ref_ability" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.featurelist.id-00005" class="ref_ability" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.featurelist.id-00006" class="ref_ability" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.inventorylist.id-00002" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.inventorylist.id-00004" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.inventorylist.id-00005" class="item" pos="784,352,1134,702" />
+	<window data="charsheet.id-00002.inventorylist.id-00011" class="item" pos="1195,577,1545,927" />
+	<window data="charsheet.id-00002.inventorylist.id-00014" class="item" pos="784,352,1134,702" />
+	<window data="charsheet.id-00002.inventorylist.id-00016" class="item" pos="1227,402,1577,752" />
+	<window data="charsheet.id-00002.powers.id-00001.actions.id-00001" class="power_effect_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.powers.id-00002" class="power" pos="864,401,1252,804" />
+	<window data="charsheet.id-00002.traitlist.id-00001" class="ref_ability" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.traitlist.id-00003" class="ref_ability" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.traitlist.id-00005" class="ref_ability" pos="785,350,1135,700" />
+	<window data="charsheet.id-00002.weaponlist.id-00003" class="char_weapon_editor" pos="1195,577,1545,927" />
+	<window data="charsheet.id-00002.weaponlist.id-00005" class="char_weapon_editor" pos="830,283,1180,633" />
+	<window data="charsheet.id-00002.weaponlist.id-00006" class="char_weapon_editor" pos="1072,16,1422,366" />
+	<window data="charsheet.id-00003" class="charsheet" pos="414,74,992,811" />
+	<window data="charsheet.id-00003" class="charsheet_classes" pos="1147,31,1617,331" />
+	<window data="charsheet.id-00003" class="charsheet_combatcalc" pos="672,771,1172,991" />
+	<window data="charsheet.id-00003" class="charsheet_healthcalc" pos="760,465,1160,585" />
+	<window data="charsheet.id-00003.featurelist.id-00001" class="ref_ability" pos="784,352,1134,702" />
+	<window data="charsheet.id-00003.featurelist.id-00002" class="ref_ability" pos="784,352,1134,702" />
+	<window data="charsheet.id-00003.featurelist.id-00003" class="ref_ability" pos="784,352,1134,702" />
+	<window data="charsheet.id-00003.featurelist.id-00005" class="ref_ability" pos="916,127,1434,702" />
+	<window data="charsheet.id-00003.inventorylist.id-00001" class="item" pos="782,352,1132,702" />
+	<window data="charsheet.id-00003.inventorylist.id-00006" class="item" pos="1105,525,1455,875" />
+	<window data="charsheet.id-00003.inventorylist.id-00020" class="item" pos="785,350,1135,700" />
+	<window data="charsheet.id-00003.powergroup.id-00001" class="power_groupdetail" pos="816,699,1246,989" />
+	<window data="charsheet.id-00003.powergroup.id-00004" class="power_groupdetail" pos="745,380,1175,670" />
+	<window data="charsheet.id-00003.powergroup.id-00005" class="power_groupdetail" pos="745,380,1175,670" />
+	<window data="charsheet.id-00003.powergroup.id-00006" class="power_groupdetail" pos="745,380,1175,670" />
+	<window data="charsheet.id-00003.powers.id-00002" class="power" pos="376,583,726,933" />
+	<window data="charsheet.id-00003.powers.id-00003" class="power" pos="784,352,1134,702" />
+	<window data="charsheet.id-00003.powers.id-00003.actions.id-00001" class="power_cast_editor" pos="775,352,1145,702" />
+	<window data="charsheet.id-00003.powers.id-00003.actions.id-00002" class="power_damage_editor" pos="784,352,1134,702" />
+	<window data="charsheet.id-00003.powers.id-00004" class="power" pos="785,352,1135,702" />
+	<window data="charsheet.id-00003.powers.id-00008" class="power" pos="785,350,1135,700" />
+	<window data="charsheet.id-00003.powers.id-00014" class="power" pos="1003,265,1353,615" />
+	<window data="charsheet.id-00003.powers.id-00014.actions.id-00001" class="power_cast_editor" pos="775,350,1145,700" />
+	<window data="charsheet.id-00003.powers.id-00014.actions.id-00004" class="power_damage_editor" pos="864,401,1214,751" />
+	<window data="charsheet.id-00003.powers.id-00015.actions.id-00001" class="power_effect_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00003.powers.id-00017" class="power" pos="1032,296,1382,646" />
+	<window data="charsheet.id-00003.powers.id-00017.actions.id-00002" class="power_damage_editor" pos="864,401,1214,751" />
+	<window data="charsheet.id-00003.powers.id-00017.actions.id-00003" class="power_effect_editor" pos="864,401,1214,751" />
+	<window data="charsheet.id-00003.powers.id-00018" class="power" pos="1064,254,1414,604" />
+	<window data="charsheet.id-00003.powers.id-00018.actions.id-00003" class="power_effect_editor" pos="864,401,1214,751" />
+	<window data="charsheet.id-00003.traitlist.id-00001" class="ref_ability" pos="784,352,1134,702" />
+	<window data="charsheet.id-00003.traitlist.id-00002" class="ref_ability" pos="784,352,1134,702" />
+	<window data="charsheet.id-00003.weaponlist.id-00002" class="char_weapon_editor" pos="785,350,1135,700" />
+	<window data="charsheet.id-00004" class="charsheet" pos="40,4,565,604" />
+	<window data="combattracker" class="combattracker_host" pos="988,12,1811,777" />
+	<window data="combattracker.list.id-00004" class="npc" pos="127,159,587,705" />
+	<window data="combattracker.list.id-00004.traits.id-00001" class="ct_power_detail" pos="810,375,1110,675" />
+	<window data="combattracker.list.id-00006" class="npc" pos="730,250,1190,800" />
+	<window data="combattracker.list.id-00010" class="npc" pos="730,250,1190,800" />
+	<window data="combattracker.list.id-00011" class="npc" pos="730,250,1190,800" />
+	<window data="combattracker.list.id-00013.actions.id-00001" class="ct_power_detail" pos="810,375,1110,675" />
+	<window data="effects" class="effectlist" pos="291,196,811,636" />
+	<window data="encounter" class="encounterlist" pos="391,-6,1045,394" />
+	<window data="encounter" class="masterindex" pos="295,89,933,595" />
+	<window data="encounter.enc_p0_03introduction@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p0_07adventurehook@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p0_08theforgottenrealms@DD Lost Mine of Phandelver" class="encounter" pos="866,260,1266,910" />
+	<window data="encounter.enc_p2_01_index_part2@DD Lost Mine of Phandelver" class="encounter" pos="586,20,982,220" />
+	<window data="encounter.enc_p2_02phandalin@DD Lost Mine of Phandelver" class="encounter" pos="497,17,928,501" />
+	<window data="encounter.enc_p2_03encountersinphandalin@DD Lost Mine of Phandelver" class="encounter" pos="540,296,940,946" />
+	<window data="encounter.enc_p2_04importantnpcs@DD Lost Mine of Phandelver" class="encounter" pos="797,669,1232,1014" />
+	<window data="encounter.enc_p2_05_00towndescription@DD Lost Mine of Phandelver" class="encounter" pos="163,82,563,732" />
+	<window data="encounter.enc_p2_05_alderleaffarm@DD Lost Mine of Phandelver" class="encounter" pos="920,326,1320,976" />
+	<window data="encounter.enc_p2_05_barthen_sprovisions@DD Lost Mine of Phandelver" class="encounter" pos="922,113,1322,763" />
+	<window data="encounter.enc_p2_05_edermathorchard@DD Lost Mine of Phandelver" class="encounter" pos="398,669,800,1012" />
+	<window data="encounter.enc_p2_05_lionshieldcoster@DD Lost Mine of Phandelver" class="encounter" pos="520,113,920,763" />
+	<window data="encounter.enc_p2_05_phandalinminer_sexchange@DD Lost Mine of Phandelver" class="encounter" pos="465,72,865,722" />
+	<window data="encounter.enc_p2_05_shrineofluck@DD Lost Mine of Phandelver" class="encounter" pos="520,113,920,763" />
+	<window data="encounter.enc_p2_05_stonehillinn@DD Lost Mine of Phandelver" class="encounter" pos="520,113,920,763" />
+	<window data="encounter.enc_p2_05_thesleepinggiant@DD Lost Mine of Phandelver" class="encounter" pos="563,72,963,722" />
+	<window data="encounter.enc_p2_05_townmaster_shall@DD Lost Mine of Phandelver" class="encounter" pos="520,113,920,763" />
+	<window data="encounter.enc_p2_05_tresendarmanor@DD Lost Mine of Phandelver" class="encounter" pos="610,27,1010,677" />
+	<window data="encounter.enc_p2_06redbrandruffians@DD Lost Mine of Phandelver" class="encounter" pos="1408,12,1808,662" />
+	<window data="encounter.enc_p2_07_00redbrandhideout@DD Lost Mine of Phandelver" class="encounter" pos="372,577,772,1227" />
+	<window data="encounter.enc_p2_07_01_cellar@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p2_07_02_barracks@DD Lost Mine of Phandelver" class="encounter" pos="515,264,915,914" />
+	<window data="encounter.enc_p2_07_03_trappedhall@DD Lost Mine of Phandelver" class="encounter" pos="1042,263,1442,913" />
+	<window data="encounter.enc_p2_07_04_tresendarcrypts@DD Lost Mine of Phandelver" class="encounter" pos="1048,136,1448,786" />
+	<window data="encounter.enc_p2_07_05_slavepens@DD Lost Mine of Phandelver" class="encounter" pos="251,9,653,619" />
+	<window data="encounter.enc_p2_07_06_armory@DD Lost Mine of Phandelver" class="encounter" pos="866,258,1266,908" />
+	<window data="encounter.enc_p2_07_07_storeroomandworkarea@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p2_07_08_crevasse@DD Lost Mine of Phandelver" class="encounter" pos="244,9,644,659" />
+	<window data="encounter.enc_p2_07_09_guardbarracks@DD Lost Mine of Phandelver" class="encounter" pos="598,404,993,904" />
+	<window data="encounter.enc_p2_07_10_commonroom@DD Lost Mine of Phandelver" class="encounter" pos="536,365,936,1015" />
+	<window data="encounter.enc_p2_07_11_wizard_sworkshop@DD Lost Mine of Phandelver" class="encounter" pos="1043,19,1443,519" />
+	<window data="encounter.enc_p2_07_12_glasstaff_squarters@DD Lost Mine of Phandelver" class="encounter" pos="1328,16,1804,450" />
+	<window data="encounter.enc_p2_08what_snext_@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_01_index_part3@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_02thespider_sweb@DD Lost Mine of Phandelver" class="encounter" pos="1384,528,1803,1005" />
+	<window data="encounter.enc_p3_05oldowlwell@DD Lost Mine of Phandelver" class="encounter" pos="399,33,1177,666" />
+	<window data="encounter.enc_p3_06_00ruinsofthundertree@DD Lost Mine of Phandelver" class="encounter" pos="850,63,1250,713" />
+	<window data="encounter.enc_p3_06_01_westernmostcottage@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_06_02_blightedcottages@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_06_03_thebrownhorse@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_06_04_druid_swatch@DD Lost Mine of Phandelver" class="encounter" pos="195,7,595,657" />
+	<window data="encounter.enc_p3_06_05_blightedfarmhouse@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_06_06_ruinedstore@DD Lost Mine of Phandelver" class="encounter" pos="1068,15,1468,665" />
+	<window data="encounter.enc_p3_06_07_dragon_stower@DD Lost Mine of Phandelver" class="encounter" pos="102,84,502,734" />
+	<window data="encounter.enc_p3_06_08_oldsmithy@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_06_09_herbalist_sshop@DD Lost Mine of Phandelver" class="encounter" pos="718,18,1118,668" />
+	<window data="encounter.enc_p3_06_10_townsquare@DD Lost Mine of Phandelver" class="encounter" pos="839,251,1239,901" />
+	<window data="encounter.enc_p3_06_11_oldgarrison@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_06_12_weaver_scottage@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_06_13_dragoncultists@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_07wyverntor@DD Lost Mine of Phandelver" class="encounter" pos="866,258,1266,908" />
+	<window data="encounter.enc_p3_08_00cragmawcastle@DD Lost Mine of Phandelver" class="encounter" pos="1381,210,1781,860" />
+	<window data="encounter.enc_p3_08_01_castleentrance@DD Lost Mine of Phandelver" class="encounter" pos="228,30,628,680" />
+	<window data="encounter.enc_p3_08_03_archerpost@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_08_07_banquethall@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_08_11_ruinedtower@DD Lost Mine of Phandelver" class="encounter" pos="37,94,437,744" />
+	<window data="encounter.enc_p3_08_12_guardbarracks@DD Lost Mine of Phandelver" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.enc_p3_08_14_king_squarters@DD Lost Mine of Phandelver" class="encounter" pos="1164,354,1564,1004" />
+	<window data="encounter.id-00001" class="encounter" pos="584,145,1306,795" />
+	<window data="encounter.id-00002" class="encounter" pos="643,106,1285,682" />
+	<window data="encounter.id-00003" class="encounter" pos="824,2,1224,652" />
+	<window data="encounter.id-00004" class="encounter" pos="824,2,1721,678" />
+	<window data="encounter.id-00005" class="encounter" pos="760,200,1160,850" />
+	<window data="encounter.id-00006" class="encounter" pos="760,200,1603,839" />
+	<window data="encounter.id-00007" class="encounter" pos="1170,427,1865,1054" />
+	<window data="encounter.id-00008" class="encounter" pos="127,36,530,428" />
+	<window data="encounter.id-00009" class="encounter" pos="402,29,798,466" />
+	<window data="encounter.id-00010" class="encounter" pos="162,353,757,881" />
+	<window data="encounter.id-00011" class="encounter" pos="435,50,835,700" />
+	<window data="encounter.id-00012" class="encounter" pos="521,26,921,676" />
+	<window data="figures.Locations_Figure_01@DOE Locations Manual" class="imagewindow" pos="964,312,1164,854" />
+	<window data="figures.Locations_Figure_02@DOE Locations Manual" class="imagewindow" pos="927,307,1200,859" />
+	<window data="figures.Locations_Figure_03@DOE Locations Manual" class="imagewindow" pos="551,185,888,692" />
+	<window data="figures.Locations_Figure_05@DOE Locations Manual" class="imagewindow" pos="914,298,1213,869" />
+	<window data="figures.Locations_Figure_06@DOE Locations Manual" class="imagewindow" pos="570,236,869,640" />
+	<window data="forge.magicitem" class="forge_magicitem" pos="420,263,1020,613" />
+	<window data="image" class="imagelist" pos="107,56,775,640" />
+	<window data="image" class="masterindex" pos="403,238,972,931" />
+	<window data="image.id-00001" class="imagewindow" pos="412,264,612,503" />
+	<window data="image.id-00008@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00009@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00010@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00011@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00012@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00016@FG Battle Maps" class="imagewindow" pos="511,12,1390,526" />
+	<window data="image.id-00017@FG Battle Maps" class="imagewindow" pos="607,58,1591,778" />
+	<window data="image.id-00018@D&#38;D Out of the Abyss" class="imagewindow" pos="315,81,1541,926" />
+	<window data="image.id-00018@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00019@D&#38;D Out of the Abyss" class="imagewindow" pos="1008,15,1897,902" />
+	<window data="image.id-00019@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00020@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00021@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00033@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00047@FG Battle Maps" class="imagewindow" pos="607,58,1855,1345" />
+	<window data="image.id-00221@D&#38;D Out of the Abyss" class="imagewindow" pos="0,81,1220,475" />
+	<window data="image.img_cragmawcastle_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="654,258,1258,788" />
+	<window data="image.img_cragmawcastle_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="137,24,1009,777" />
+	<window data="image.img_cragmawhideout_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="411,114,1509,936" />
+	<window data="image.img_nothic_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="742,267,1177,782" />
+	<window data="image.img_phandalin_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="409,37,1384,921" />
+	<window data="image.img_phandalin_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="201,50,1239,827" />
+	<window data="image.img_redbrandhideout_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="1004,83,1803,738" />
+	<window data="image.img_redbrandhideout_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="582,179,1791,984" />
+	<window data="image.img_ruinsofthundertree_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="130,46,1123,798" />
+	<window data="image.img_ruinsofthundertree_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="99,26,1081,817" />
+	<window data="image.img_theswordcoast_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="519,29,1332,844" />
+	<window data="image.img_theswordcoast_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="614,67,1753,976" />
+	<window data="image.img_theswordcoast_player_lores_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="629,43,1290,1006" />
+	<window data="image.img_waveechocave_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="0,0,1300,801" />
+	<window data="item" class="itemlist" pos="841,10,1382,410" />
+	<window data="item" class="masterindex" pos="746,172,1389,837" />
+	<window data="item.dagger@DD Lost Mine of Phandelver" class="item" pos="616,614,966,964" />
+	<window data="item.id-00001" class="item" pos="493,397,843,747" />
+	<window data="item.id-00002" class="item" pos="545,263,895,613" />
+	<window data="item.plate@DD Lost Mine of Phandelver" class="item" pos="785,350,1135,700" />
+	<window data="languages" class="languagelist" pos="785,352,1135,967" />
+	<window data="lists.battle.bycategory@DD Lost Mine of Phandelver" class="reference_colindex" pos="1221,12,1671,462" />
+	<window data="lists.encounter.bycategory@DD Lost Mine of Phandelver" class="reference_colindex" pos="397,-2,847,448" />
+	<window data="lists.imagewindow@D&#38;D Out of the Abyss" class="referenceindexsorted" pos="785,300,1135,750" />
+	<window data="lists.imagewindow@DD Lost Mine of Phandelver" class="referenceindex" pos="172,3,510,433" />
+	<window data="lists.imagewindow@FG Battle Maps" class="referenceindexsorted" pos="991,123,1481,973" />
+	<window data="lists.storytemplates.bycategory@Volos Guide to Monsters Players" class="reference_colindex" pos="731,298,1181,748" />
+	<window data="lists.table.bycategory@DD Dungeon Masters Guide" class="reference_colindex" pos="1366,80,1816,950" />
+	<window data="lists.table.bycategory@DD Lost Mine of Phandelver" class="reference_colindex" pos="735,300,1185,750" />
+	<window data="lists.table.bycategory@DD MM Monster Manual" class="reference_colindex" pos="1055,475,1505,925" />
+	<window data="lists.table.bycategory@DD PHB Deluxe" class="reference_colindex" pos="735,300,1185,750" />
+	<window data="lists.table.bycategory@DD Volos Guide to Monsters" class="reference_colindex" pos="1086,500,1536,950" />
+	<window data="lists.table.bycategory@DandD Wiki" class="reference_colindex" pos="1053,477,1503,927" />
+	<window data="lists.table.bycategory@Volos Guide to Monsters Players" class="reference_colindex" pos="731,298,1181,748" />
+	<window data="lists.table@Random NPC Generator [Generic]" class="referenceindexsorted" pos="889,358,1239,808" />
+	<window data="modifiers" class="modifiers" pos="470,263,970,613" />
+	<window data="notes" class="notelist" pos="478,58,903,805" />
+	<window data="notes.id-00001" class="note" pos="687,212,1037,766" />
+	<window data="notes.id-00002" class="note" pos="849,362,1347,832" />
+	<window data="notes.id-00003" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00004" class="note" pos="907,351,1257,701" />
+	<window data="notes.id-00005" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00006" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00007" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00008" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00009" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00010" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00011" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00012" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00013" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00014" class="note" pos="785,350,1135,700" />
+	<window data="notes.id-00015" class="note" pos="1110,262,1460,612" />
+	<window data="notes.id-00016" class="note" pos="433,51,883,553" />
+	<window data="npc" class="masterindex" pos="478,498,928,948" />
+	<window data="npc" class="npclist" pos="1373,10,1810,630" />
+	<window data="npc.ashzombie@DD Lost Mine of Phandelver" class="npc" pos="730,250,1190,800" />
+	<window data="npc.brughoraxebiter@DD Lost Mine of Phandelver" class="npc" pos="92,146,552,642" />
+	<window data="npc.bugbear@DD Lost Mine of Phandelver" class="npc" pos="730,250,1190,800" />
+	<window data="npc.daranedermath@DD Lost Mine of Phandelver" class="npc" pos="743,273,1203,823" />
+	<window data="npc.droop@DD Lost Mine of Phandelver" class="npc" pos="847,43,1307,593" />
+	<window data="npc.elmarbarthen@DD Lost Mine of Phandelver" class="npc" pos="916,16,1376,566" />
+	<window data="npc.favric_cultist_@DD Lost Mine of Phandelver" class="npc" pos="834,308,1294,858" />
+	<window data="npc.goblin@DD Lost Mine of Phandelver" class="npc" pos="730,250,1190,800" />
+	<window data="npc.haliathornton@DD Lost Mine of Phandelver" class="npc" pos="836,308,1296,858" />
+	<window data="npc.hamunkost_evilmage_@DD Lost Mine of Phandelver" class="npc" pos="1004,43,1464,801" />
+	<window data="npc.harbinwester@DD Lost Mine of Phandelver" class="npc" pos="422,366,882,916" />
+	<window data="npc.id-00001" class="npc" pos="793,308,1253,858" />
+	<window data="npc.id-00002" class="npc" pos="409,501,869,901" />
+	<window data="npc.id-00003" class="npc" pos="263,18,723,568" />
+	<window data="npc.id-00004" class="npc" pos="693,242,1153,792" />
+	<window data="npc.id-00005" class="npc" pos="836,308,1296,858" />
+	<window data="npc.id-00006" class="npc" pos="836,308,1296,858" />
+	<window data="npc.id-00007" class="npc" pos="836,308,1296,858" />
+	<window data="npc.id-00008" class="npc" pos="836,308,1296,858" />
+	<window data="npc.id-00009" class="npc" pos="836,308,1296,858" />
+	<window data="npc.id-00010" class="npc" pos="836,308,1296,858" />
+	<window data="npc.id-00011" class="npc" pos="730,250,1190,800" />
+	<window data="npc.id-00012" class="npc" pos="839,355,1299,905" />
+	<window data="npc.id-00013" class="npc" pos="1187,252,1647,802" />
+	<window data="npc.id-00014" class="npc" pos="157,206,617,756" />
+	<window data="npc.kinggroll@DD Lost Mine of Phandelver" class="npc" pos="730,250,1190,800" />
+	<window data="npc.linenegraywind@DD Lost Mine of Phandelver" class="npc" pos="1319,27,1779,577" />
+	<window data="npc.mirnadendrar@DD Lost Mine of Phandelver" class="npc" pos="798,121,1258,521" />
+	<window data="npc.nilsadendrar@DD Lost Mine of Phandelver" class="npc" pos="834,308,1294,858" />
+	<window data="npc.nothic@DD Lost Mine of Phandelver" class="npc" pos="788,549,1248,1099" />
+	<window data="npc.nundro@DD Lost Mine of Phandelver" class="npc" pos="834,308,1294,858" />
+	<window data="npc.ogre@DD Lost Mine of Phandelver" class="npc" pos="427,82,887,632" />
+	<window data="npc.orc@DD Lost Mine of Phandelver" class="npc" pos="836,308,1296,858" />
+	<window data="npc.qellinealderleaf@DD Lost Mine of Phandelver" class="npc" pos="1020,72,1480,472" />
+	<window data="npc.ripper@DD Lost Mine of Phandelver" class="npc" pos="834,308,1294,858" />
+	<window data="npc.skeleton@DD Lost Mine of Phandelver" class="npc" pos="836,308,1296,858" />
+	<window data="npc.toblenstonehill@DD Lost Mine of Phandelver" class="npc" pos="836,308,1296,858" />
+	<window data="npc.vyerith@DD Lost Mine of Phandelver" class="npc" pos="728,310,1188,860" />
+	<window data="npc.zombie@DD Lost Mine of Phandelver" class="npc" pos="1050,425,1510,975" />
+	<window data="partysheet" class="imagewindow" pos="185,277,733,864" />
+	<window data="partysheet" class="partysheet_host" pos="1016,8,1816,508" />
+	<window data="partysheet.encounters.id-00006" class="battle" pos="891,383,1241,783" />
+	<window data="partysheet.encounters.id-00007" class="battle" pos="785,325,1135,725" />
+	<window data="partysheet.encounters.id-00008" class="battle" pos="785,325,1135,725" />
+	<window data="partysheet.encounters.id-00010" class="battle" pos="785,325,1135,725" />
+	<window data="partysheet.encounters.id-00011" class="battle" pos="545,238,895,638" />
+	<window data="partysheet.quests.id-00001" class="quest" pos="785,350,1135,700" />
+	<window data="partysheet.quests.id-00002" class="quest" pos="785,350,1135,700" />
+	<window data="partysheet.quests.id-00003" class="quest" pos="785,350,1135,700" />
+	<window data="quest" class="masterindex" pos="731,298,1181,748" />
+	<window data="quest" class="questlist" pos="508,321,808,721" />
+	<window data="reference.backgrounddata" class="masterindex" pos="731,298,1181,748" />
+	<window data="reference.backgrounddata.acolyte@DD PHB Deluxe" class="reference_background" pos="545,263,895,613" />
+	<window data="reference.backgrounddata.guildmerchant@DD PHB Deluxe" class="reference_background" pos="545,263,895,613" />
+	<window data="reference.backgrounddata.metalworker@DandD Wiki" class="reference_background" pos="884,242,1353,896" />
+	<window data="reference.backgrounddata.sailor@DD PHB Deluxe" class="reference_background" pos="890,410,1240,760" />
+	<window data="reference.backgrounddata.slave@DandD Wiki" class="reference_background" pos="545,263,895,613" />
+	<window data="reference.backgrounddata.soldier.features.militaryrank@DD PHB Deluxe" class="reference_backgroundfeature" pos="1092,442,1442,792" />
+	<window data="reference.backgrounddata.soldier@DD PHB Deluxe" class="reference_background" pos="407,25,808,818" />
+	<window data="reference.backgrounddata.spy@DD PHB Deluxe" class="reference_background" pos="890,410,1240,760" />
+	<window data="reference.backgrounddata.urchin@DD PHB Deluxe" class="reference_background" pos="890,410,1240,760" />
+	<window data="reference.backgroundlists.byletter@DD PHB Deluxe" class="reference_colindex" pos="1113,83,1563,533" />
+	<window data="reference.backgroundlists.byletter@DandD Wiki" class="reference_colindex" pos="650,350,1100,800" />
+	<window data="reference.classdata.bard@DD PHB Deluxe" class="reference_class" pos="1310,350,1660,750" />
+	<window data="reference.classdata.fighter.abilities.battlemaster@DD PHB Deluxe" class="reference_classability" pos="545,338,895,638" />
+	<window data="reference.classdata.fighter.abilities.champion@DD PHB Deluxe" class="reference_classability" pos="1001,207,1351,507" />
+	<window data="reference.classdata.fighter.features.abilityscoreimprovement4@DD PHB Deluxe" class="reference_classfeature" pos="545,338,895,638" />
+	<window data="reference.classdata.fighter.features.actionsurge2@DD PHB Deluxe" class="reference_classfeature" pos="545,338,895,638" />
+	<window data="reference.classdata.fighter.features.additionalfightingstyle10@DD PHB Deluxe" class="reference_classfeature" pos="785,427,1135,727" />
+	<window data="reference.classdata.fighter.features.combatsuperiority3@DD PHB Deluxe" class="reference_classfeature" pos="545,338,895,638" />
+	<window data="reference.classdata.fighter.features.fightingstyle1@DD PHB Deluxe" class="reference_classfeature" pos="752,308,1102,608" />
+	<window data="reference.classdata.fighter.features.improvedcritical3@DD PHB Deluxe" class="reference_classfeature" pos="545,338,895,638" />
+	<window data="reference.classdata.fighter.features.martialarchetype3@DD PHB Deluxe" class="reference_classfeature" pos="545,338,895,638" />
+	<window data="reference.classdata.fighter.features.remarkableathlete7@DD PHB Deluxe" class="reference_classfeature" pos="545,338,895,638" />
+	<window data="reference.classdata.fighter.features.secondwind1@DD PHB Deluxe" class="reference_classfeature" pos="710,331,1060,631" />
+	<window data="reference.classdata.fighter.features.superiorcritical15@DD PHB Deluxe" class="reference_classfeature" pos="785,427,1135,727" />
+	<window data="reference.classdata.fighter@DD PHB Deluxe" class="reference_class" pos="48,178,535,689" />
+	<window data="reference.classdata.monk.features.stunningstrike5@DD PHB Deluxe" class="reference_classfeature" pos="782,427,1132,727" />
+	<window data="reference.classdata.monk@DD PHB Deluxe" class="reference_class" pos="782,327,1422,856" />
+	<window data="reference.classdata.ranger@DD PHB Deluxe" class="reference_class" pos="890,385,1240,785" />
+	<window data="reference.classdata.warlock.features.eldritchinvocations2@DD PHB Deluxe" class="reference_classfeature" pos="784,427,1221,883" />
+	<window data="reference.classdata.warlock.features.expandedspelllist_greatoldone_1@DD PHB Deluxe" class="reference_classfeature" pos="784,427,1134,727" />
+	<window data="reference.classdata.warlock.features.mysticarcanum11@DD PHB Deluxe" class="reference_classfeature" pos="785,425,1135,725" />
+	<window data="reference.classdata.warlock.features.pactboon3@DD PHB Deluxe" class="reference_classfeature" pos="1069,202,1434,600" />
+	<window data="reference.classdata.warlock@DD PHB Deluxe" class="reference_class" pos="1118,12,1806,920" />
+	<window data="reference.classlists.byletter@DD PHB Deluxe" class="reference_colindex" pos="937,159,1387,609" />
+	<window data="reference.copyright@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.donations@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.equipmentdata.ballbearings_1_000_@DD PHB Deluxe" class="reference_equipment" pos="784,352,1134,702" />
+	<window data="reference.equipmentdata.burglar_spack@DD PHB Deluxe" class="reference_equipment" pos="784,352,1134,702" />
+	<window data="reference.equipmentdata.crossbow_heavy@DD PHB Deluxe" class="reference_weapon" pos="545,263,895,613" />
+	<window data="reference.equipmentdata.diplomat_spack@DD PHB Deluxe" class="reference_equipment" pos="784,352,1134,702" />
+	<window data="reference.equipmentdata.dungeoneer_spack@DD PHB Deluxe" class="reference_equipment" pos="890,410,1240,760" />
+	<window data="reference.equipmentdata.emblem@DD PHB Deluxe" class="reference_equipment" pos="545,263,895,613" />
+	<window data="reference.equipmentdata.entertainer_spack@DD PHB Deluxe" class="reference_equipment" pos="784,352,1134,702" />
+	<window data="reference.equipmentdata.explorer_spack@DD PHB Deluxe" class="reference_equipment" pos="890,410,1240,760" />
+	<window data="reference.equipmentdata.greataxe@DD PHB Deluxe" class="reference_weapon" pos="1015,270,1365,620" />
+	<window data="reference.equipmentdata.oil@DD Dungeon Masters Guide" class="reference_equipment" pos="785,350,1135,700" />
+	<window data="reference.equipmentdata.oil_flask_@DD PHB Deluxe" class="reference_equipment" pos="785,350,1135,700" />
+	<window data="reference.equipmentdata.oiloftaggit@DD Dungeon Masters Guide" class="reference_equipment" pos="785,350,1135,700" />
+	<window data="reference.equipmentdata.priest_spack@DD PHB Deluxe" class="reference_equipment" pos="890,410,1240,760" />
+	<window data="reference.equipmentdata.wagon@DD PHB Deluxe" class="reference_equipment" pos="890,410,1240,760" />
+	<window data="reference.equipmentlists.adventuringgeartable@DD Basic Rules - Player" class="reference_adventuringgeartable" pos="918,325,1368,975" />
+	<window data="reference.equipmentlists.adventuringgeartable@DD Dungeon Masters Guide" class="reference_adventuringgeartable" pos="735,200,1185,850" />
+	<window data="reference.equipmentlists.adventuringgeartable@DD PHB Deluxe" class="reference_adventuringgeartable" pos="1164,124,1614,774" />
+	<window data="reference.equipmentlists.armortable@DD Basic Rules - Player" class="reference_armortable" pos="212,278,962,928" />
+	<window data="reference.equipmentlists.armortable@DD Dungeon Masters Guide" class="reference_armortable" pos="585,200,1335,850" />
+	<window data="reference.equipmentlists.armortable@DD PHB Deluxe" class="reference_armortable" pos="1056,225,1806,875" />
+	<window data="reference.equipmentlists.equipment@DD Basic Rules - Player" class="referenceindex" pos="785,300,1135,750" />
+	<window data="reference.equipmentlists.equipment@DD Dungeon Masters Guide" class="referenceindex" pos="785,300,1135,750" />
+	<window data="reference.equipmentlists.equipment@DD PHB Deluxe" class="referenceindex" pos="1442,568,1792,1018" />
+	<window data="reference.equipmentlists.mountsandotheranimalstable@DD PHB Deluxe" class="reference_mountsandotheranimalstable" pos="726,258,1176,908" />
+	<window data="reference.equipmentlists.tack_harness_anddrawnvehiclestable@DD PHB Deluxe" class="reference_adventuringgeartable" pos="840,260,1290,910" />
+	<window data="reference.equipmentlists.toolstable@DD Dungeon Masters Guide" class="reference_adventuringgeartable" pos="735,200,1185,850" />
+	<window data="reference.equipmentlists.toolstable@DD PHB Deluxe" class="reference_adventuringgeartable" pos="495,113,945,763" />
+	<window data="reference.equipmentlists.treasuretable@DD Dungeon Masters Guide" class="reference_adventuringgeartable" pos="735,200,1185,850" />
+	<window data="reference.equipmentlists.waterbornevehiclestable@DD PHB Deluxe" class="reference_waterbornevehiclestable" pos="840,260,1290,910" />
+	<window data="reference.equipmentlists.weapontable@DD Dungeon Masters Guide" class="reference_weapontable" pos="585,200,1335,850" />
+	<window data="reference.equipmentlists.weapontable@DD PHB Deluxe" class="reference_weapontable" pos="1065,208,1815,858" />
+	<window data="reference.featdata.crossbowexpert@DD PHB Deluxe" class="reference_feat" pos="545,263,895,613" />
+	<window data="reference.featdata.svirfneblinmagic@DD Elemental Evil Players Companion" class="reference_feat" pos="785,352,1135,702" />
+	<window data="reference.featlists.byletter@DD PHB Deluxe" class="reference_featlist" pos="676,121,1376,771" />
+	<window data="reference.imagedata.img_banditcaptain_jpg@DD MM Monster Manual" class="imagewindow" pos="731,207,1188,842" />
+	<window data="reference.imagedata.img_belt_of_dwarvenkind_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="442,157,1459,875" />
+	<window data="reference.imagedata.img_bugbear_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="1412,-1,1791,524" />
+	<window data="reference.imagedata.img_fighter_jpg@DD PHB Deluxe" class="imagewindow" pos="1175,425,1565,1079" />
+	<window data="reference.imagedata.img_goblin_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="1318,386,1779,1011" />
+	<window data="reference.imagedata.img_greenhag_jpg@DD MM Monster Manual" class="imagewindow" pos="743,131,1168,915" />
+	<window data="reference.imagedata.img_half_ogre_jpg@DD MM Monster Manual" class="imagewindow" pos="511,418,1014,1104" />
+	<window data="reference.imagedata.img_instrument_of_the_bards_canaith_mandolin_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="735,83,1166,949" />
+	<window data="reference.imagedata.img_instrument_of_the_bards_cli_lyre_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="734,99,1167,934" />
+	<window data="reference.imagedata.img_instrument_of_the_bards_foclucan_bandore_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="657,120,1245,913" />
+	<window data="reference.imagedata.img_instrument_of_the_bards_mac_furmid_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="659,97,1243,936" />
+	<window data="reference.imagedata.img_instrument_of_the_bards_ollamh_harp_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="691,105,1211,927" />
+	<window data="reference.imagedata.img_kenku_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="542,71,1378,978" />
+	<window data="reference.imagedata.img_nighthag_jpg@DD MM Monster Manual" class="imagewindow" pos="765,281,1151,890" />
+	<window data="reference.imagedata.img_nothic_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="903,291,1338,806" />
+	<window data="reference.imagedata.img_ogre_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="867,318,1265,848" />
+	<window data="reference.imagedata.img_soldier_jpg@DD PHB Deluxe" class="imagewindow" pos="868,289,1263,882" />
+	<window data="reference.imagedata.img_spell_scroll_jpg@DD Dungeon Masters Guide" class="imagewindow" pos="699,322,1221,727" />
+	<window data="reference.imagedata.img_tarrasque_jpg@DD MM Monster Manual" class="imagewindow" pos="669,100,1295,783" />
+	<window data="reference.imagedata.img_zombie_jpg@DD Lost Mine of Phandelver" class="imagewindow" pos="686,211,1315,894" />
+	<window data="reference.license@DOE Locations Manual" class="referencetextwide" pos="739,258,1389,908" />
+	<window data="reference.locations_bugs@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.locations_compatibilities@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.locations_details.building_record@DOE Locations Manual" class="referencetextwide" pos="739,258,1389,908" />
+	<window data="reference.locations_details.location_record@DOE Locations Manual" class="referencetextwide" pos="111,59,761,709" />
+	<window data="reference.locations_details.sounds_page@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.locations_details.town_record@DOE Locations Manual" class="referencetextwide" pos="395,113,1045,763" />
+	<window data="reference.locations_details.world_record@DOE Locations Manual" class="referencetextwide" pos="395,113,1045,763" />
+	<window data="reference.locations_details@DOE Locations Manual" class="referencetextwide" pos="679,193,1329,843" />
+	<window data="reference.locations_developer@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.locations_links@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.locations_supersedes@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.locations_usage@DOE Locations Manual" class="referencetextwide" pos="720,163,1370,813" />
+	<window data="reference.magicitemdata.amuletofhealth@DD Dungeon Masters Guide" class="reference_magicitem" pos="371,443,721,793" />
+	<window data="reference.magicitemdata.beltofdwarvenkind@DD Dungeon Masters Guide" class="reference_magicitem" pos="400,9,750,359" />
+	<window data="reference.magicitemdata.instrumentofthebards_anstruthharp_@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1126,691" />
+	<window data="reference.magicitemdata.instrumentofthebards_canaithmandolin_@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1126,691" />
+	<window data="reference.magicitemdata.instrumentofthebards_clilyre_@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1334,746" />
+	<window data="reference.magicitemdata.instrumentofthebards_dosslute_@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1126,691" />
+	<window data="reference.magicitemdata.instrumentofthebards_fochlucanbandore_@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1126,691" />
+	<window data="reference.magicitemdata.instrumentofthebards_mac_fuimidhcittern_@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1126,691" />
+	<window data="reference.magicitemdata.instrumentofthebards_ollamhharp_@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1126,691" />
+	<window data="reference.magicitemlists.bytype@DD Dungeon Masters Guide" class="reference_colindex" pos="949,18,1399,468" />
+	<window data="reference.magicrefitemdata.beltofdwarvenkind@DD Dungeon Masters Guide" class="reference_magicitem" pos="776,341,1126,691" />
+	<window data="reference.magicrefitemdata.oilofslipperiness@DD Dungeon Masters Guide" class="reference_magicitem" pos="785,350,1135,700" />
+	<window data="reference.magicrefitemlists.bytype@DD Dungeon Masters Guide" class="reference_colindex" pos="735,300,1185,750" />
+	<window data="reference.menubar@DOE Locations Manual" class="referencetext" pos="864,258,1264,908" />
+	<window data="reference.npcdata.annishag@DD Volos Guide to Monsters" class="npc" pos="726,248,1186,798" />
+	<window data="reference.npcdata.bandit@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.banditcaptain@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.bat@DD PHB Deluxe" class="npc" pos="490,163,950,713" />
+	<window data="reference.npcdata.battlebriar@Sprouting Chaos" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.bheurhag@DD Volos Guide to Monsters" class="npc" pos="726,248,1186,798" />
+	<window data="reference.npcdata.blackbear@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.blackpudding@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.blightedhusk@Sprouting Chaos" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.blinkdog@DD MM Monster Manual" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.brownbear@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.centaur@DD MM Monster Manual" class="npc" pos="726,248,1186,798" />
+	<window data="reference.npcdata.commoner@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.cultist@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.dryad@DD MM Monster Manual" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.ettercap@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.forestdragon@Sprouting Chaos" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.gasspore@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.gelatinouscube@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.giantowl@DD MM Monster Manual" class="npc" pos="719,247,1179,797" />
+	<window data="reference.npcdata.grayooze@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.greenhag@DD MM Monster Manual" class="npc" pos="884,277,1344,827" />
+	<window data="reference.npcdata.guard@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.half_ogre@DD MM Monster Manual" class="npc" pos="1016,342,1476,892" />
+	<window data="reference.npcdata.hellhound@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.kenku@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.mossdog@Sprouting Chaos" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.nighthag@DD MM Monster Manual" class="npc" pos="384,63,844,613" />
+	<window data="reference.npcdata.noble@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.ochrejelly@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.pixie@DD MM Monster Manual" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.polarbear@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.rustmonster@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.satyr@DD MM Monster Manual" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.seahag@DD MM Monster Manual" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.sporebackfrog@Sprouting Chaos" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.sprite@DD MM Monster Manual" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.spy@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.tarrasque@DD MM Monster Manual" class="npc" pos="1050,425,1510,975" />
+	<window data="reference.npcdata.thorngiant@Sprouting Chaos" class="npc" pos="728,310,1188,860" />
+	<window data="reference.npcdata.thug@DD MM Monster Manual" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.veteran@DD MM Monster Manual" class="npc" pos="834,310,1294,860" />
+	<window data="reference.npcdata.vineterror@Sprouting Chaos" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npcdata.vinewisp@Sprouting Chaos" class="npc" pos="730,250,1190,800" />
+	<window data="reference.npclists.byletter@DD MM Monster Manual" class="reference_colindex" pos="225,112,675,562" />
+	<window data="reference.npclists.byletter@DD PHB Deluxe" class="reference_colindex" pos="495,213,945,663" />
+	<window data="reference.npclists.byletter@Sprouting Chaos" class="reference_colindex" pos="468,9,918,459" />
+	<window data="reference.npclists.bylevel@DD MM Monster Manual" class="reference_colindex" pos="733,360,1232,1097" />
+	<window data="reference.npclists.bylevel@Sprouting Chaos" class="reference_colindex" pos="733,360,1183,810" />
+	<window data="reference.npclists.bytype@DD MM Monster Manual" class="reference_colindex" pos="990,321,1440,1013" />
+	<window data="reference.npclists.bytype@DD PHB Deluxe" class="reference_colindex" pos="495,213,945,663" />
+	<window data="reference.npclists.npcs@DD MM Monster Manual" class="referenceindex" pos="991,75,1341,525" />
+	<window data="reference.npclists.npcs@DD PHB Deluxe" class="referenceindex" pos="545,213,895,663" />
+	<window data="reference.npclists.npcs@Sprouting Chaos" class="referenceindex" pos="783,360,1133,810" />
+	<window data="reference.questdata.quest_findingcragmawcastle@DD Lost Mine of Phandelver" class="quest" pos="545,263,895,613" />
+	<window data="reference.questdata.quest_findingiarno@DD Lost Mine of Phandelver" class="quest" pos="545,263,895,613" />
+	<window data="reference.questdata.quest_mirna_sheirloom@DD Lost Mine of Phandelver" class="quest" pos="545,263,895,613" />
+	<window data="reference.questdata.quest_oldowltrouble@DD Lost Mine of Phandelver" class="quest" pos="785,350,1135,700" />
+	<window data="reference.questdata.quest_orctrouble@DD Lost Mine of Phandelver" class="quest" pos="545,263,895,613" />
+	<window data="reference.questdata.quest_reidoththedruid@DD Lost Mine of Phandelver" class="quest" pos="737,89,1087,439" />
+	<window data="reference.racedata.dwarf.traits.age@DD PHB Deluxe" class="reference_racialtrait" pos="890,410,1240,760" />
+	<window data="reference.racedata.dwarf.traits.darkvision@DD PHB Deluxe" class="reference_racialtrait" pos="890,410,1240,760" />
+	<window data="reference.racedata.dwarf.traits.dwarvencombattraining@DD PHB Deluxe" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.dwarf.traits.dwarvenresilience@DD PHB Deluxe" class="reference_racialtrait" pos="1014,386,1364,736" />
+	<window data="reference.racedata.dwarf.traits.languages@DD PHB Deluxe" class="reference_racialtrait" pos="890,410,1240,760" />
+	<window data="reference.racedata.dwarf.traits.size@DD PHB Deluxe" class="reference_racialtrait" pos="890,410,1240,760" />
+	<window data="reference.racedata.dwarf.traits.speed@DD PHB Deluxe" class="reference_racialtrait" pos="890,410,1240,760" />
+	<window data="reference.racedata.dwarf.traits.stonecunning@DD PHB Deluxe" class="reference_racialtrait" pos="890,410,1240,760" />
+	<window data="reference.racedata.dwarf.traits.toolproficiency@DD PHB Deluxe" class="reference_racialtrait" pos="890,410,1240,760" />
+	<window data="reference.racedata.dwarf@DD PHB Deluxe" class="reference_race" pos="933,30,1489,826" />
+	<window data="reference.racedata.gnome.subraces.deepgnome@DD Elemental Evil Players Companion" class="reference_subrace" pos="785,352,1135,702" />
+	<window data="reference.racedata.silva.traits.abilityscoreincrease@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva.traits.age@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva.traits.alignment@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva.traits.calloftheforest@Sprouting Chaos" class="reference_racialtrait" pos="865,207,1215,557" />
+	<window data="reference.racedata.silva.traits.darkvision@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva.traits.languages@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva.traits.photosynthesis@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva.traits.size@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva.traits.speed@Sprouting Chaos" class="reference_racialtrait" pos="785,350,1135,700" />
+	<window data="reference.racedata.silva@Sprouting Chaos" class="reference_race" pos="821,46,1491,894" />
+	<window data="reference.racedata.tiefling.traits.hellishresistance@DD PHB Deluxe" class="reference_racialtrait" pos="939,90,1289,440" />
+	<window data="reference.racedata.tiefling.traits.infernallegacy@DD PHB Deluxe" class="reference_racialtrait" pos="882,52,1232,402" />
+	<window data="reference.racedata.tiefling@DD PHB Deluxe" class="reference_race" pos="1257,39,1607,389" />
+	<window data="reference.racelists.byletter@DD PHB Deluxe" class="reference_colindex" pos="687,138,1137,588" />
+	<window data="reference.racelists.byletter@Volos Guide to Monsters Players" class="reference_colindex" pos="731,298,1181,748" />
+	<window data="reference.refmanualdata.refpage_000207equipment@DD PHB Deluxe" class="referencemanualpage" pos="395,113,1045,763" />
+	<window data="reference.refmanualindex@DD Elemental Evil Players Companion" class="reference_manual" pos="485,202,1435,852" />
+	<window data="reference.refmanualindex@DD MM Monster Manual" class="reference_manual" pos="805,375,1755,1025" />
+	<window data="reference.refmanualindex@DD PHB Deluxe" class="reference_manual" pos="459,50,1409,700" />
+	<window data="reference.refmanualindex@Volos Guide to Monsters Players" class="reference_manual" pos="481,198,1431,848" />
+	<window data="reference.skilldata.stealth@DD PHB Deluxe" class="ref_ability" pos="784,352,1134,702" />
+	<window data="reference.spelldata.augury@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.colorspray@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.dancinglights@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.druidcraft@DD PHB Deluxe" class="reference_spell" pos="891,408,1241,758" />
+	<window data="reference.spelldata.entangle@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.eruptingearth@DD Elemental Evil Players Companion" class="reference_spell" pos="545,263,895,613" />
+	<window data="reference.spelldata.fogcloud@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.friends@DD PHB Deluxe" class="reference_spell" pos="799,601,1099,976" />
+	<window data="reference.spelldata.grease@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.holdperson@DD PHB Deluxe" class="reference_spell" pos="782,352,1132,702" />
+	<window data="reference.spelldata.investitureofstone@DD Elemental Evil Players Companion" class="reference_spell" pos="545,263,895,613" />
+	<window data="reference.spelldata.magicmissile@DD PHB Deluxe" class="reference_spell" pos="545,263,895,613" />
+	<window data="reference.spelldata.magicstone@DD Elemental Evil Players Companion" class="reference_spell" pos="545,263,895,613" />
+	<window data="reference.spelldata.maximilian_searthengrasp@DD Elemental Evil Players Companion" class="reference_spell" pos="1162,347,1512,697" />
+	<window data="reference.spelldata.moldearth@DD Elemental Evil Players Companion" class="reference_spell" pos="545,263,895,613" />
+	<window data="reference.spelldata.poisonspray@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.prismaticspray@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.stinkingcloud@DD PHB Deluxe" class="reference_spell" pos="785,350,1135,700" />
+	<window data="reference.spelldata.wallofwater@Volos Guide to Monsters Players" class="reference_spell" pos="781,348,1131,698" />
+	<window data="reference.spelllists._index_@DD Elemental Evil Players Companion" class="reference_colindex" pos="495,213,945,663" />
+	<window data="reference.spelllists._index_@DD PHB Deluxe" class="reference_colindex" pos="799,32,1249,482" />
+	<window data="reference.spelllists.bard@DD PHB Deluxe" class="reference_colindex" pos="734,302,1184,752" />
+	<window data="reference.spelllists.spells@DD Elemental Evil Players Companion" class="referenceindex" pos="545,213,895,663" />
+	<window data="reference.spelllists.spells@DD PHB Deluxe" class="referenceindex" pos="549,18,899,468" />
+	<window data="reference.spelllists.spells@Sprouting Chaos" class="referenceindex" pos="891,358,1241,808" />
+	<window data="reference.spelllists.spells@Volos Guide to Monsters Players" class="referenceindex" pos="781,298,1131,748" />
+	<window data="reference.spelllists.warlock@DD PHB Deluxe" class="reference_colindex" pos="1236,370,1686,820" />
+	<window data="reference.spelllists.wizard@DD PHB Deluxe" class="reference_colindex" pos="735,302,1185,752" />
+	<window data="reference.spelllists.wizard@Volos Guide to Monsters Players" class="reference_colindex" pos="731,298,1181,748" />
+	<window data="tables" class="tablelist" pos="308,36,1201,976" />
+	<window data="tables.criticalhit@Default Fumble and Critical Hit Tables" class="table" pos="454,405,854,805" />
+	<window data="tables.criticalhiteffect@Default Fumble and Critical Hit Tables" class="table" pos="520,238,920,638" />
+	<window data="tables.fumble@Default Fumble and Critical Hit Tables" class="table" pos="520,238,920,638" />
+	<window data="tables.fumbleeffect@Default Fumble and Critical Hit Tables" class="table" pos="520,238,1150,1151" />
+	<window data="tables.id-00001@Random NPC Generator [Generic]" class="table" pos="864,383,1540,860" />
+	<window data="tables.id-00031@Random NPC Generator [Generic]" class="table" pos="839,376,1239,776" />
+	<window data="tables.tab_acolytepersonalitytrait@DD PHB Deluxe" class="table" pos="520,238,920,638" />
+	<window data="tables.tab_criminalflaw@DD PHB Deluxe" class="table" pos="520,238,920,638" />
+	<window data="tables.tab_hagbonds@DD Volos Guide to Monsters" class="table" pos="756,323,1156,723" />
+	<window data="tables.tab_hagcovenspells@DD Volos Guide to Monsters" class="table" pos="756,323,1156,723" />
+	<window data="tables.tab_hagflaws@DD Volos Guide to Monsters" class="table" pos="756,323,1156,723" />
+	<window data="tables.tab_hagnames@DD Volos Guide to Monsters" class="table" pos="1014,402,1414,802" />
+	<window data="tables.tab_hagobjects@DD Volos Guide to Monsters" class="table" pos="756,323,1156,723" />
+	<window data="tables.tab_hagpersonalitytraits@DD Volos Guide to Monsters" class="table" pos="756,323,1156,723" />
+	<window data="tables.tab_hagtypetable@DD Volos Guide to Monsters" class="table" pos="756,323,1156,723" />
+	<window data="tables.tab_individualtreasure_challenge00_04@DD Dungeon Masters Guide" class="table" pos="1279,34,1886,739" />
+	<window data="tables.tab_magicitemtableg@DD Dungeon Masters Guide" class="table" pos="1171,550,1571,950" />
+	<window data="tables.tab_metalworkerbond@DandD Wiki" class="table" pos="520,238,920,638" />
+	<window data="tables.tab_metalworkerideal@DandD Wiki" class="table" pos="520,238,920,638" />
+	<window data="tables.tab_metalworkerpersonalitytrait@DandD Wiki" class="table" pos="520,238,920,638" />
+	<window data="tables.tab_randomdungeon_trapeffects@DD Dungeon Masters Guide" class="table" pos="760,325,1160,725" />
+	<window data="tables.tab_slavepersonalitytrait@DandD Wiki" class="table" pos="520,238,920,638" />
+	<window data="tables.tab_soldierbond@DD PHB Deluxe" class="table" pos="965,284,1430,708" />
+	<window data="tables.tab_soldierflaw@DD PHB Deluxe" class="table" pos="865,385,1265,785" />
+	<window data="tables.tab_soldierideal@DD PHB Deluxe" class="table" pos="865,385,1265,785" />
+	<window data="tables.tab_soldierpersonalitytrait@DD PHB Deluxe" class="table" pos="865,385,1265,785" />
+	<window data="tables.tab_soldierspecialty@DD PHB Deluxe" class="table" pos="980,408,1380,808" />
+	<window data="tables.tab_sylvanforestencounters@DD Dungeon Masters Guide" class="table" pos="456,566,856,966" />
+	<window data="tables.tab_treasurehoard_challenge05_10@DD Dungeon Masters Guide" class="table" pos="760,325,1654,725" />
+	<window data="tables.tab_wildmagicsurge@DD PHB Deluxe" class="table" pos="759,327,1159,727" />
+	<window data="treasureparcels" class="parcellist" pos="401,429,950,1029" />
+	<window data="treasureparcels.id-00001" class="treasureparcel" pos="409,673,909,1023" />
+	<window data="treasureparcels.id-00001.itemlist.id-00003" class="item" pos="503,238,853,588" />
+	<window data="treasureparcels.id-00002" class="treasureparcel" pos="861,895,1361,1245" />
+	<window data="treasureparcels.id-00003" class="treasureparcel" pos="816,408,1316,758" />
+	<window data="treasureparcels.id-00004" class="treasureparcel" pos="816,408,1316,758" />
+	<window data="treasureparcels.id-00005" class="treasureparcel" pos="816,408,1316,758" />
+	<window data="treasureparcels.id-00006" class="treasureparcel" pos="816,408,1316,758" />
+	<window data="treasureparcels.id-00007" class="treasureparcel" pos="816,408,1316,758" />
+	<window data="treasureparcels.par_10_commonroom@DD Lost Mine of Phandelver" class="treasureparcel" pos="710,350,1210,700" />
+	<window data="treasureparcels.par_12_glasstaff_squarters.itemlist.id-00003@DD Lost Mine of Phandelver" class="item" pos="785,350,1135,700" />
+	<window data="treasureparcels.par_12_glasstaff_squarters@DD Lost Mine of Phandelver" class="treasureparcel" pos="710,350,1210,700" />
+	<window data="treasureparcels.par_13_dragoncultists@DD Lost Mine of Phandelver" class="treasureparcel" pos="710,350,1210,700" />
+	<window data="treasureparcels.par_2_barracks@DD Lost Mine of Phandelver" class="treasureparcel" pos="1107,700,1607,1050" />
+	<window data="treasureparcels.par_6_ruinedstore@DD Lost Mine of Phandelver" class="treasureparcel" pos="710,350,1210,700" />
+	<window data="treasureparcels.par_8_crevasse.itemlist.id-00003@DD Lost Mine of Phandelver" class="item" pos="785,350,1135,700" />
+	<window data="treasureparcels.par_8_crevasse.itemlist.id-00004@DD Lost Mine of Phandelver" class="item" pos="785,350,1135,700" />
+	<window data="treasureparcels.par_8_crevasse@DD Lost Mine of Phandelver" class="treasureparcel" pos="882,10,1382,360" />
+	<window data="treasureparcels.par_9_guardbarracks@DD Lost Mine of Phandelver" class="treasureparcel" pos="710,350,1210,700" />
+	<window data="treasureparcels.par_9_herbalist_sshop.itemlist.id-00001@DD Lost Mine of Phandelver" class="item" pos="785,350,1135,700" />
+	<window data="treasureparcels.par_9_herbalist_sshop@DD Lost Mine of Phandelver" class="treasureparcel" pos="746,256,1294,606" />
+	<window data="treasureparcels.par_wyverntor@DD Lost Mine of Phandelver" class="treasureparcel" pos="1002,318,1502,668" />
+
+	<image data="figures.Locations_Figure_01@DOE Locations Manual" class="imagewindow" control="image" view="0,0" zoom="2.02667" />
+	<image data="image.id-00001" class="imagewindow" control="image" view="0,0" zoom="2.375" />
+	<image data="image.id-00016@FG Battle Maps" class="imagewindow" control="image" view="0,0" zoom="0.739167" />
+	<image data="image.id-00017@FG Battle Maps" class="imagewindow" control="image" view="-239,-567" zoom="1" />
+	<image data="image.id-00018@D&#38;D Out of the Abyss" class="imagewindow" control="image" view="0,-42" zoom="1" />
+	<image data="image.img_cragmawcastle_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="-409,-71" zoom="2.3" />
+	<image data="image.img_cragmawcastle_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="-101,-40" zoom="0.9" />
+	<image data="image.img_phandalin_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,0" zoom="1.59" />
+	<image data="image.img_redbrandhideout_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,0" zoom="2.39" />
+	<image data="image.img_redbrandhideout_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,-94" zoom="1.10571" />
+	<image data="image.img_ruinsofthundertree_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,0" zoom="1.8" />
+	<image data="image.img_ruinsofthundertree_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,0" zoom="0.451701" />
+	<image data="image.img_theswordcoast_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,-315" zoom="1.24796" />
+	<image data="image.img_theswordcoast_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="-233,-525" zoom="1.07" />
+	<image data="image.img_waveechocave_player__jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,-1017" zoom="0.480614" />
+	<image data="reference.imagedata.img_bugbear_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="-11,0" zoom="1.1005" />
+	<image data="reference.imagedata.img_zombie_jpg@DD Lost Mine of Phandelver" class="imagewindow" control="image" view="0,0" zoom="2.35" />
+</windowstate>

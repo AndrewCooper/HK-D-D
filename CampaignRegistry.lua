@@ -1,0 +1,17 @@
+{
+	["OptREVL"] = "on",
+	["OptINIT"] = "on",
+	["OptHRNH"] = "random",
+	["OptHRFC"] = "",
+	["OptRSHE"] = "on",
+	["OptDDCL"] = "desktopdecal_sw",
+	["OptHRST"] = "off",
+	["OptPSMN"] = "on",
+	["OptNNPC"] = "random",
+	["OptWNDC"] = "off",
+	["OptTOTL"] = "on",
+	["OptSHRR"] = "on",
+	["sidebar"] = "charsheet,image,table,story,npc,battle,item",
+	["OptPSIN"] = "on",
+	["gmidentity"] = "DM",
+}

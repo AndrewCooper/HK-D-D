@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.1" release="7|CoreRPG:3" integrity="035cad93de429700b022a6ca9818c4f373ab743c">
+	<image>
+		<category name="" mergeid="ALO-03-01Harried In Hillsfar" baseicon="0" decalicon="0">
+			<id-00010>
+				<image type="image">
+					<bitmap>The Death map.jpg</bitmap>
+					<gridsize>100</gridsize>
+					<gridoffset>99,99</gridoffset>
+					<gridsnap>on</gridsnap>
+					<shortcuts>
+						<shortcut>
+							<x>800</x>
+							<y>1056</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00026@ALO-03-01Harried In Hillsfar</recordname>
+						</shortcut>
+						<shortcut>
+							<x>1440</x>
+							<y>308</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00028@ALO-03-01Harried In Hillsfar</recordname>
+						</shortcut>
+						<shortcut>
+							<x>2852</x>
+							<y>536</y>
+							<class>encounter</class>
+							<recordname>encounter.id-00030@ALO-03-01Harried In Hillsfar</recordname>
+						</shortcut>
+					</shortcuts>
+					<tokens>
+						<idcounter>0</idcounter>
+						<scalelock>4.0875</scalelock>
+					</tokens>
+				</image>
+			</id-00010>
+		</category>
+	</image>
+</root>

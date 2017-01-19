@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="95aa03d38ec49ab6664d0bbe43ad5796f3cce08d">
+	<tables>
+		<category name="DandD Wiki" baseicon="2" decalicon="1">
+			<tab_metalworkerflaw>
+				<resultscols type="number">1</resultscols>
+				<category name="DandD Wiki" baseicon="0" decalicon="0">
+				</category>
+			</tab_metalworkerflaw>
+			<tab_metalworkerideal>
+				<resultscols type="number">1</resultscols>
+				<category name="DandD Wiki" baseicon="0" decalicon="0">
+				</category>
+			</tab_metalworkerideal>
+			<tab_metalworkerpersonalitytrait>
+				<resultscols type="number">1</resultscols>
+				<category name="DandD Wiki" baseicon="0" decalicon="0">
+				</category>
+			</tab_metalworkerpersonalitytrait>
+		</category>
+	</tables>
+</root>

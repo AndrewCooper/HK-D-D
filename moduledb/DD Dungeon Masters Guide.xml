@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="c10bb54d2c9942d073b0376181ca4e40dd7a6e15">
+	<reference>
+		<category name="DD Dungeon Masters Guide" baseicon="0" decalicon="0">
+			<imagedata>
+				<category name="DD Dungeon Masters Guide" baseicon="0" decalicon="0">
+					<img_belt_of_dwarvenkind_jpg>
+						<image type="image">
+							<bitmap>images/Belt_of_Dwarvenkind.jpg</bitmap>
+						</image>
+					</img_belt_of_dwarvenkind_jpg>
+					<img_instrument_of_the_bards_canaith_mandolin_jpg>
+						<image type="image">
+							<bitmap>images/Instrument_of_the_Bards_Canaith_Mandolin.jpg</bitmap>
+						</image>
+					</img_instrument_of_the_bards_canaith_mandolin_jpg>
+					<img_instrument_of_the_bards_cli_lyre_jpg>
+						<image type="image">
+							<bitmap>images/Instrument_of_the_Bards_Cli_Lyre.jpg</bitmap>
+						</image>
+					</img_instrument_of_the_bards_cli_lyre_jpg>
+					<img_instrument_of_the_bards_foclucan_bandore_jpg>
+						<image type="image">
+							<bitmap>images/Instrument_of_the_Bards_Foclucan_Bandore.jpg</bitmap>
+						</image>
+					</img_instrument_of_the_bards_foclucan_bandore_jpg>
+					<img_instrument_of_the_bards_mac_furmid_jpg>
+						<image type="image">
+							<bitmap>images/Instrument_of_the_Bards_Mac_Furmid.jpg</bitmap>
+						</image>
+					</img_instrument_of_the_bards_mac_furmid_jpg>
+					<img_instrument_of_the_bards_ollamh_harp_jpg>
+						<image type="image">
+							<bitmap>images/Instrument_of_the_Bards_Ollamh_Harp.jpg</bitmap>
+						</image>
+					</img_instrument_of_the_bards_ollamh_harp_jpg>
+					<img_kenku_jpg>
+						<image type="image">
+							<bitmap>images/Kenku.jpg</bitmap>
+						</image>
+					</img_kenku_jpg>
+					<img_part2_6_jpg>
+						<image type="image">
+							<bitmap>images/Part2_6.jpg</bitmap>
+						</image>
+					</img_part2_6_jpg>
+					<img_spell_scroll_jpg>
+						<image type="image">
+							<bitmap>images/Spell_Scroll.jpg</bitmap>
+						</image>
+					</img_spell_scroll_jpg>
+				</category>
+			</imagedata>
+		</category>
+	</reference>
+	<tables>
+		<category name="DD DMG Chptr 1: A World of Your Own" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 2: Creating a Multiverse" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 3: Creating Adventures" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 4: Creating Nonplayer Characters" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 5: Adventure Environments" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 6: Between Adventures" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 7: Treasure" baseicon="2" decalicon="1">
+			<tab_individualtreasure_challenge00_04>
+				<output type="string">parcel</output>
+				<category name="DD Dungeon Masters Guide" baseicon="0" decalicon="0">
+				</category>
+			</tab_individualtreasure_challenge00_04>
+		</category>
+		<category name="DD DMG Chptr 8: Running the Game" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr 9: Dungeon Master's Workshop" baseicon="2" decalicon="1">
+		</category>
+		<category name="DD DMG Chptr A: Random Dungeon" baseicon="2" decalicon="1">
+		</category>
+	</tables>
+</root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="215152efe54d6155d29fdd2df552fa79a9ff51d2">
+	<figures>
+		<category name="DOE Locations Manual" baseicon="0" decalicon="0">
+			<Locations_Figure_01>
+				<image type="image">
+					<bitmap>Figures/Locations_Figure_01.png</bitmap>
+				</image>
+			</Locations_Figure_01>
+			<Locations_Figure_02>
+				<image type="image">
+					<bitmap>Figures/Locations_Figure_02.png</bitmap>
+				</image>
+			</Locations_Figure_02>
+			<Locations_Figure_03>
+				<image type="image">
+					<bitmap>Figures/Locations_Figure_03.png</bitmap>
+				</image>
+			</Locations_Figure_03>
+			<Locations_Figure_05>
+				<image type="image">
+					<bitmap>Figures/Locations_Figure_05.png</bitmap>
+				</image>
+			</Locations_Figure_05>
+			<Locations_Figure_06>
+				<image type="image">
+					<bitmap>Figures/Locations_Figure_06.png</bitmap>
+				</image>
+			</Locations_Figure_06>
+		</category>
+	</figures>
+</root>

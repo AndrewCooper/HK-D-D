@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<modulestate version="3.2">
+	<module name="Animal Tokens">
+		<loaded />
+	</module>
+	<module name="Calendars">
+		<loaded />
+	</module>
+	<module name="Character Tokens">
+		<loaded />
+	</module>
+	<module name="D&#38;D Out of the Abyss">
+		<loaded />
+	</module>
+	<module name="DD Basic Rules - DM">
+		<allow />
+	</module>
+	<module name="DD Basic Rules - Player">
+		<loaded />
+	</module>
+	<module name="DD Dungeon Masters Guide">
+		<loaded />
+	</module>
+	<module name="DD Elemental Evil Players Companion">
+		<loaded />
+		<allow />
+	</module>
+	<module name="DD Lost Mine of Phandelver">
+		<loaded />
+		<allow />
+	</module>
+	<module name="DD MM Monster Manual">
+		<loaded />
+	</module>
+	<module name="DD PHB Deluxe">
+		<loaded />
+		<allow />
+	</module>
+	<module name="DD Volos Guide to Monsters">
+		<loaded />
+	</module>
+	<module name="DandD Wiki">
+		<loaded />
+		<allow />
+	</module>
+	<module name="Default Fumble and Critical Hit Tables">
+		<loaded />
+	</module>
+	<module name="FG Battle Maps">
+		<loaded />
+	</module>
+	<module name="Immortal Nights">
+		<loaded />
+	</module>
+	<module name="Monster Tokens">
+		<loaded />
+	</module>
+	<module name="Random NPC Generator [Generic]">
+		<loaded />
+	</module>
+	<module name="Sprouting Chaos">
+		<loaded />
+		<allow />
+	</module>
+	<module name="Ultimate NPCsSkulduggery 5E">
+		<loaded />
+	</module>
+	<module name="Volos Guide to Monsters Players">
+		<loaded />
+	</module>
+</modulestate>

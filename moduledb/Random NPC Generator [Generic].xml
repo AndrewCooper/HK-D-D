@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.2" release="7|CoreRPG:3" integrity="662b737269f0627f2673e675a662c128e54d0610">
+	<tables>
+		<category name="Random NPC Generator [Generic]" baseicon="0" decalicon="0">
+			<id-00001>
+				<output type="string">story</output>
+				<category name="Random NPC Generator [Generic]" baseicon="0" decalicon="0">
+				</category>
+			</id-00001>
+		</category>
+	</tables>
+</root>
