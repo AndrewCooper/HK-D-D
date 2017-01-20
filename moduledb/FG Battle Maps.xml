@@ -41,20 +41,10 @@
 						<idcounter>31</idcounter>
 						<scalelock>2.25</scalelock>
 						<token>
-							<prototype>tokens/dwarf_female_adventurer_A_01.png@Character Pogs</prototype>
-							<id>3</id>
-							<x>474</x>
-							<y>461</y>
-							<name>Bronselyn</name>
-							<visibilitylocked>on</visibilitylocked>
-						</token>
-						<token>
 							<prototype>portrait_id-00003_token</prototype>
 							<id>4</id>
 							<x>488</x>
 							<y>270</y>
-							<name>Tymenos</name>
-							<visibilitylocked>on</visibilitylocked>
 						</token>
 						<token>
 							<prototype>portrait_id-00002_token</prototype>

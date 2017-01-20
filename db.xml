@@ -1776,6 +1776,100 @@
 				</id-00004>
 			</npclist>
 		</id-00005>
+		<id-00006>
+			<exp type="number">0</exp>
+			<npclist>
+				<id-00001>
+					<count type="number">1</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>reference.npcdata.ettercap@DD MM Monster Manual</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+					</maplink>
+					<name type="string">Ettercap</name>
+					<token type="token">tokens/ettercap.png@DD MM Monster Manual</token>
+				</id-00001>
+				<id-00002>
+					<count type="number">3</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.giantspider@DD Lost Mine of Phandelver</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+						<id-00003>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00003>
+					</maplink>
+					<name type="string">Giant Spider</name>
+					<token type="token">tokens/giantspider.png@DD Lost Mine of Phandelver</token>
+				</id-00002>
+				<id-00003>
+					<count type="number">3</count>
+					<link type="windowreference">
+						<class>npc</class>
+						<recordname>npc.id-00213@D&#38;D Out of the Abyss</recordname>
+					</link>
+					<maplink>
+						<id-00001>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00001>
+						<id-00002>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00002>
+						<id-00003>
+							<imageref type="windowreference">
+								<class></class>
+								<recordname></recordname>
+							</imageref>
+							<imagex type="number">0</imagex>
+							<imagey type="number">0</imagey>
+						</id-00003>
+					</maplink>
+					<name type="string">Swarm of Spiders</name>
+					<token type="token">tokens/campaign/S.png@D&#38;D Out of the Abyss</token>
+				</id-00003>
+			</npclist>
+		</id-00006>
 	</battle>
 	<calendar>
 		<public />
@@ -2271,6 +2365,7 @@
 					<count type="number">1</count>
 					<isidentified type="number">1</isidentified>
 					<name type="string">Small Wooden Case</name>
+					<weight type="number">0</weight>
 				</id-00002>
 				<id-00003>
 					<holder name="jarodmerle" owner="true" />
@@ -2608,6 +2703,7 @@
 					<count type="number">1</count>
 					<isidentified type="number">1</isidentified>
 					<name type="string">Gold Necklaced w/ Emerald Pendant (200gp)</name>
+					<weight type="number">0</weight>
 				</id-00025>
 				<id-00026>
 					<holder name="jarodmerle" owner="true" />
@@ -2625,6 +2721,23 @@
 					<name type="string">Gold Necklace with fine Emerald</name>
 					<weight type="number">0</weight>
 				</id-00026>
+				<id-00027>
+					<holder name="jarodmerle" owner="true" />
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>Given to you by Snow Moonpool, the cat creature you rescued from the Ettercap. She said that blowing the horn like a whistle would call Snow and her pixie friends anywhere within Neverwinter Forest.</p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Tiny Unicorn Horn</name>
+					<rarity type="string">Rare</rarity>
+					<type type="string">Wondrous Item</type>
+					<weight type="number">0</weight>
+				</id-00027>
 			</inventorylist>
 			<languagelist>
 				<holder name="jarodmerle" owner="true" />
@@ -3471,9 +3584,6 @@
 			</speed>
 			<temp>
 				<holder name="jarodmerle" owner="true" />
-				<item>
-					<holder name="jarodmerle" owner="true" />
-				</item>
 			</temp>
 			<token type="token">portrait_id-00001_token</token>
 			<traitlist>
@@ -3803,7 +3913,7 @@
 				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
 				<total type="number">44</total>
-				<wounds type="number">13</wounds>
+				<wounds type="number">23</wounds>
 			</hp>
 			<initiative>
 				<holder name="Alex" owner="true" />
@@ -6599,6 +6709,103 @@
 				</id-00004>
 			</weaponlist>
 		</id-00003>
+		<id-00004>
+			<abilities>
+				<charisma>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</charisma>
+				<constitution>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</constitution>
+				<dexterity>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</dexterity>
+				<intelligence>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</intelligence>
+				<strength>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</strength>
+				<wisdom>
+					<bonus type="number">0</bonus>
+					<save type="number">0</save>
+					<savemodifier type="number">0</savemodifier>
+					<saveprof type="number">0</saveprof>
+					<score type="number">10</score>
+				</wisdom>
+			</abilities>
+			<backgroundlink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</backgroundlink>
+			<classes>
+			</classes>
+			<defenses>
+				<ac>
+					<armor type="number">0</armor>
+					<misc type="number">0</misc>
+					<prof type="number">1</prof>
+					<shield type="number">0</shield>
+					<temporary type="number">0</temporary>
+					<total type="number">10</total>
+				</ac>
+			</defenses>
+			<hp>
+				<deathsavefail type="number">3</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+				<wounds type="number">0</wounds>
+			</hp>
+			<initiative>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</initiative>
+			<level type="number">0</level>
+			<name type="string">spunky</name>
+			<perception type="number">10</perception>
+			<perceptionmodifier type="number">0</perceptionmodifier>
+			<profbonus type="number">2</profbonus>
+			<racelink type="windowreference">
+				<class></class>
+				<recordname></recordname>
+			</racelink>
+			<skilllist>
+				<id-00001>
+					<name type="string">Perception</name>
+					<stat type="string">wisdom</stat>
+				</id-00001>
+			</skilllist>
+			<speed>
+				<armor type="number">0</armor>
+				<base type="number">0</base>
+				<misc type="number">0</misc>
+				<temporary type="number">0</temporary>
+				<total type="number">0</total>
+			</speed>
+			<token type="token"></token>
+		</id-00004>
 	</charsheet>
 	<combattracker>
 		<public />
@@ -6647,7 +6854,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">23</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">7</initresult>
+				<initresult type="number">22</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -6727,7 +6934,7 @@
 					<id-00001>
 						<public />
 						<apply type="string">roll</apply>
-						<duration type="number">92</duration>
+						<duration type="number">87</duration>
 						<init type="number">12</init>
 						<isactive type="number">2</isactive>
 						<isgmonly type="number">0</isgmonly>
@@ -6739,7 +6946,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">44</hptotal>
 				<init type="number">3</init>
-				<initresult type="number">12</initresult>
+				<initresult type="number">11</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -6764,9 +6971,13 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Wounded</status>
+				<status type="string">Heavy</status>
 				<targets>
 					<public />
+					<id-00001>
+						<public />
+						<noderef type="string">combattracker.list.id-00004</noderef>
+					</id-00001>
 				</targets>
 				<token type="token">portrait_id-00002_token</token>
 				<tokenrefid type="string">1</tokenrefid>
@@ -6776,7 +6987,7 @@
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">13</wounds>
+				<wounds type="number">23</wounds>
 			</id-00002>
 			<id-00003>
 				<public />
@@ -6784,914 +6995,18 @@
 					<public />
 					<charisma>
 						<public />
-						<score type="number">18</score>
+						<bonus type="number">-3</bonus>
+						<score type="number">4</score>
 					</charisma>
 					<constitution>
-						<public />
-						<score type="number">14</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<score type="number">12</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<score type="number">14</score>
-					</intelligence>
-					<strength>
-						<public />
-						<score type="number">8</score>
-					</strength>
-					<wisdom>
-						<public />
-						<score type="number">14</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">12</ac>
-				<actions>
-					<public />
-				</actions>
-				<active type="number">0</active>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">friend</friendfoe>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">31</hptotal>
-				<init type="number">1</init>
-				<initresult type="number">13</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>charsheet</class>
-					<recordname>charsheet.id-00003</recordname>
-				</link>
-				<name type="string">Tymenos</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<space type="number">5</space>
-				<speed type="string">30</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Wounded</status>
-				<targets>
-					<public />
-				</targets>
-				<token type="token">portrait_id-00003_token</token>
-				<tokenrefid type="string">4</tokenrefid>
-				<tokenrefnode type="string">image.id-00016.image@FG Battle Maps</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
-				<traits>
-					<public />
-				</traits>
-				<wounds type="number">13</wounds>
-			</id-00003>
-			<id-00004>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
 						<public />
 						<bonus type="number">1</bonus>
 						<score type="number">12</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
 					</constitution>
 					<dexterity>
-						<public />
-						<bonus type="number">-1</bonus>
-						<score type="number">8</score>
-					</dexterity>
-					<intelligence>
 						<public />
 						<bonus type="number">3</bonus>
 						<score type="number">16</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">16</ac>
-				<actext type="string">chain mail</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12+3) slashing damage.</desc>
-						<name type="string">Greataxe -- 2 attacks</name>
-						<value type="string">Greataxe -- 2 attacks [M] [ATK: +5] [DMG: 1d12+3 slashing]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10) piercing damage</desc>
-						<name type="string">Heavy Crossbow</name>
-						<value type="string">Heavy crossbow [R] [ATK: +3] [DMG: 1d10 piercing]</value>
-					</id-00002>
-					<id-00005>
-						<public />
-						<desc type="string">Once per day, use a bonus action to regain 1d10 + 5 hit points.</desc>
-						<name type="string">Second Wind</name>
-						<value type="string">Second wind [HEAL: 1d10+5]</value>
-					</id-00005>
-					<id-00006>
-						<public />
-						<desc type="string">Once per day, take one additional action.</desc>
-						<name type="string">Action Surge</name>
-						<value type="string">Action surge</value>
-					</id-00006>
-				</actions>
-				<active type="number">1</active>
-				<alignment type="string">Neutral Good</alignment>
-				<cr type="string">3</cr>
-				<damageresistances type="string">poison</damageresistances>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">friend</friendfoe>
-				<hp type="number">40</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">40</hptotal>
-				<init type="number">-1</init>
-				<initresult type="number">13</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Common, Dwarvish</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Bronselyn</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">passive Perception 10</senses>
-				<size type="string">Medium</size>
-				<skills type="string">Persuation +4, Animal Handling +3, Insight +3</skills>
-				<space type="number">5</space>
-				<speed type="string">25 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<p>Cousin of Gundren Rockseeker, Brosenelyn manages the caravan teams running supplies between Neverwinter and Phandalin.</p>
-					<p>The party rides with her on their initial journey to Phandalin, when they find the remains of Gundren and SIldar's horses and Gundren's empty map case.</p>
-				</text>
-				<token type="token">tokens/dwarf_female_adventurer_A_01.png@Character Pogs</token>
-				<tokenrefid type="string">3</tokenrefid>
-				<tokenrefnode type="string">image.id-00016.image@FG Battle Maps</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Reroll damage dice of 1 or 2</desc>
-						<name type="string">Great Weapon Fighting</name>
-						<value type="string">Great weapon fighting</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Critical on 19 or 20</desc>
-						<name type="string">Improved Critical</name>
-						<value type="string">Improved Critical</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<name type="string">Crossbow Expert</name>
-						<value type="string">Crossbow expert</value>
-					</id-00003>
-				</traits>
-				<type type="string">humanoid (hill dwarf)</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">0</xp>
-			</id-00004>
-			<id-00005>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">11</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">15</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">11</ac>
-				<actext type="string">(16 with barkskin)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +2 to hit or Melee Weapon Attack +4 to hit with shillelagh, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands.</desc>
-						<name type="string">Quarterstaff</name>
-						<value type="string">Quarterstaff [M] [ATK: +2] [M] [ATK: +4] [DMG: 1d6 bludgeoning] [DMG: 1d8+2 bludgeoning]</value>
-					</id-00001>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">any alignment</alignment>
-				<cr type="string">2</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">friend</friendfoe>
-				<hd type="string">(5d8 + 5)</hd>
-				<hp type="number">27</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">34</hptotal>
-				<init type="number">1</init>
-				<initresult type="number">6</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Druidic plus any two languages</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Reidoth</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">passive Perception 14</senses>
-				<size type="string">Medium</size>
-				<skills type="string">Medicine +4, Nature +3, Perception +4</skills>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nRange: 30 feet\nWhispering to the spirits of nature, you create one of the following effects within range: You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round. You instantly make a flower blossom, a seed pod open, or a leaf bud bloom. You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a -foot cube. You instantly light or snuff out a candle, a torch, or a small campfire.</desc>
-						<name type="string">Druidcraft - Cantrip (At will)</name>
-						<value type="string">Druidcraft - cantrip (at will)</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 action\nComponents: V, S\nDuration: 10 minutes\nRange: Self\nA flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again. You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged spell attack (+4 to hit). On a hit, the target takes 1d8 fire damage. This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</desc>
-						<name type="string">Produce Flame - Cantrip (At will)</name>
-						<value type="string">Produce flame - cantrip (at will) [R] [ATK: +4] [DMG: 1d8 fire]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Level: 0\nCasting Time: 1 bonus action\nComponents: V, S, M (mistletoe, a shamrock leaf, and a club or quarterstaff)\nDuration: 1 minute\nRange: Touch\nThe wood of a club or quarterstaff you are holding is imbued with nature's power. For the duration, you can use your spellcasting ability instead of Strength for the attack and damage rolls of melee attacks using that weapon, and the weapon's damage die becomes a d8. The weapon also becomes magical, if it isn't already. The spell ends if you cast it again or if you let go of the weapon.</desc>
-						<name type="string">Shillelagh - Cantrip (At will)</name>
-						<value type="string">Shillelagh - cantrip (at will)</value>
-					</id-00003>
-					<id-00004>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S\nDuration: Concentration, up to 1 minute\nRange: 90 feet\nGrasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain. A creature in the area when you cast the spell must succeed on a DC 12 Strength saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make a Strength check against your spell save DC 12. On a success, it frees itself. When the spell ends, the conjured plants wilt away.</desc>
-						<name type="string">Entangle - 1st level (4 slots)</name>
-						<value type="string">Entangle - 1st level (4 slots) [SAVEVS: strength 12] [EFF: Restrained; (C) (D:1 MIN)]</value>
-					</id-00004>
-					<id-00005>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S, M (a pinch of dirt)\nDuration: 1 hour\nRange: Touch\nYou touch a creature. The target's speed increases by 10 feet until the spell ends. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</desc>
-						<name type="string">Longstrider - 1st level (4 slots)</name>
-						<value type="string">Longstrider - 1st level (4 slots)</value>
-					</id-00005>
-					<id-00006>
-						<public />
-						<desc type="string">Level: 1 (Ritual)\nCasting Time: 1 action\nComponents: V, S\nDuration: 10 minutes\nRange: Self\nYou gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion.</desc>
-						<name type="string">Speak with Animals - 1st level (4 slots)</name>
-						<value type="string">Speak with animals - 1st level (4 slots)</value>
-					</id-00006>
-					<id-00007>
-						<public />
-						<desc type="string">Level: 1\nCasting Time: 1 action\nComponents: V, S\nDuration: Instantaneous\nRange: Self (15-foot cube)\nA wave of thunderous force sweeps out from you. Each creature in a 15-foot cube originating from you must make a DC 12 Constitution saving throw. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half as much damage and isn't pushed. In addition, unsecured objects that are completely within the area of effect are automatically pushed 10 feet away from you by the spell's effect, and the spell emits a thunderous boom audible out to 300 feet. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</desc>
-						<name type="string">Thunderwave - 1st level (4 slots)</name>
-						<value type="string">Thunderwave - 1st level (4 slots) [SAVEVS: constitution 12 (H)] [DMG: 2d8 thunder]</value>
-					</id-00007>
-					<id-00008>
-						<public />
-						<desc type="string">Level: 2 (Ritual)\nCasting Time: 1 action\nComponents: V, S, M (a morsel of food)\nDuration: 24 hours\nRange: 30 feet\nBy means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as &#34;a man or woman dressed in the uniform of the town guard&#34; or &#34;a red-haired dwarf wearing a pointed hat.&#34; You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals. When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell. At Higher Levels. If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.</desc>
-						<name type="string">Animal Messenger - 2nd level (3 slots)</name>
-						<value type="string">Animal messenger - 2nd level (3 slots)</value>
-					</id-00008>
-					<id-00009>
-						<public />
-						<desc type="string">Level: 2\nCasting Time: 1 action\nComponents: V, S, M (a handful of oak bark)\nDuration: Concentration, up to 1 hour\nRange: Touch\nYou touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.</desc>
-						<name type="string">Barkskin - 2nd level (3 slots)</name>
-						<value type="string">Barkskin - 2nd level (3 slots)</value>
-					</id-00009>
-				</spells>
-				<status type="string">Healthy</status>
-				<text type="formattedtext">
-					<h>Druid</h>
-					<linklist>
-						<link class="imagewindow" recordname="reference.imagedata.img_druid_jpg@*">Image: Druid</link>
-					</linklist>
-					<p>Druids dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance.</p>
-				</text>
-				<token type="token">tokens/druid.png@DD MM Monster Manual</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\nCantrips (at will): druidcraft, produce flame, shillelagh\n1st level (4 slots): entangle, longstrider, speak with animals, thunderwave\n2nd level (3 slots): animal messenger, barkskin</desc>
-						<name type="string">Spellcasting</name>
-						<value type="string">Spellcasting</value>
-					</id-00001>
-				</traits>
-				<type type="string">humanoid (any race)</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">450</xp>
-			</id-00005>
-			<id-00007>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">9</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">18</ac>
-				<actext type="string">(chain mail, shield)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
-						<name type="string">Longsword</name>
-						<value type="string">Longsword [M] [RNG: 10] [ATK: +3] [DMG: 1d8+1 piercing]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Ranged Weapon Attack: +3 to hit, range 150 ft./600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
-						<name type="string">Longbow</name>
-						<value type="string">Longbow [R] [RNG: 150/600] [ATK: +3] [DMG: 1d8+1 piercing]</value>
-					</id-00002>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">lawful evil</alignment>
-				<cr type="string">1/2</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(2d8 + 2)</hd>
-				<hp type="number">11</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">10</hptotal>
-				<init type="number">1</init>
-				<initresult type="number">16</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Common, Goblin</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Hobgoblin 3</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 60 ft., passive Perception 10</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Dying</status>
-				<text type="formattedtext">
-					<h>Hobgoblins</h>
-					<linklist>
-						<link class="imagewindow" recordname="reference.imagedata.img_hobgoblin_jpg@DD Lost Mine of Phandelver">Hobgoblin</link>
-					</linklist>
-					<p>Hobgoblins are cunning, disciplined warriors, who crave conquest. They impose a strict military hierarchy and are often found in the company of goblins and bugbears.</p>
-				</text>
-				<token type="token">tokens/hobgoblin.png@DD Lost Mine of Phandelver</token>
-				<tokenrefid type="string">12</tokenrefid>
-				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't incapacitated.</desc>
-						<name type="string">Martial Advantage</name>
-						<value type="string">Martial advantage [EFF: DMG: 2d6 (T:SELF) (A:ROLL)]</value>
-					</id-00001>
-				</traits>
-				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">10</wounds>
-				<xp type="number">100</xp>
-			</id-00007>
-			<id-00008>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">9</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">18</ac>
-				<actext type="string">(chain mail, shield)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
-						<name type="string">Longsword</name>
-						<value type="string">Longsword [M] [RNG: 10] [ATK: +3] [DMG: 1d8+1 piercing]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Ranged Weapon Attack: +3 to hit, range 150 ft./600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
-						<name type="string">Longbow</name>
-						<value type="string">Longbow [R] [RNG: 150/600] [ATK: +3] [DMG: 1d8+1 piercing]</value>
-					</id-00002>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">lawful evil</alignment>
-				<cr type="string">1/2</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-					<id-00001>
-						<public />
-						<duration type="number">10</duration>
-						<init type="number">7</init>
-						<isactive type="number">1</isactive>
-						<isgmonly type="number">0</isgmonly>
-						<label type="string">Unconscious</label>
-						<source_name type="string">combattracker.list.id-00001</source_name>
-					</id-00001>
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(2d8 + 2)</hd>
-				<hp type="number">11</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">14</hptotal>
-				<init type="number">1</init>
-				<initresult type="number">18</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Common, Goblin</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Hobgoblin 13</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 60 ft., passive Perception 10</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Healthy</status>
-				<text type="formattedtext">
-					<h>Hobgoblins</h>
-					<linklist>
-						<link class="imagewindow" recordname="reference.imagedata.img_hobgoblin_jpg@DD Lost Mine of Phandelver">Hobgoblin</link>
-					</linklist>
-					<p>Hobgoblins are cunning, disciplined warriors, who crave conquest. They impose a strict military hierarchy and are often found in the company of goblins and bugbears.</p>
-				</text>
-				<token type="token">tokens/hobgoblin.png@DD Lost Mine of Phandelver</token>
-				<tokenrefid type="string">13</tokenrefid>
-				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't incapacitated.</desc>
-						<name type="string">Martial Advantage</name>
-						<value type="string">Martial advantage [EFF: DMG: 2d6 (T:SELF) (A:ROLL)]</value>
-					</id-00001>
-				</traits>
-				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
-				<xp type="number">100</xp>
-			</id-00008>
-			<id-00009>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">9</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">12</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">18</ac>
-				<actext type="string">(chain mail, shield)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +3 to hit, reach 10 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
-						<name type="string">Longsword</name>
-						<value type="string">Longsword [M] [RNG: 10] [ATK: +3] [DMG: 1d8+1 piercing]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Ranged Weapon Attack: +3 to hit, range 150 ft./600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.</desc>
-						<name type="string">Longbow</name>
-						<value type="string">Longbow [R] [RNG: 150/600] [ATK: +3] [DMG: 1d8+1 piercing]</value>
-					</id-00002>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">lawful evil</alignment>
-				<cr type="string">1/2</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(2d8 + 2)</hd>
-				<hp type="number">11</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">15</hptotal>
-				<init type="number">1</init>
-				<initresult type="number">15</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Common, Goblin</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Hobgoblin 20</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 60 ft., passive Perception 10</senses>
-				<size type="string">Medium</size>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Heavy</status>
-				<text type="formattedtext">
-					<h>Hobgoblins</h>
-					<linklist>
-						<link class="imagewindow" recordname="reference.imagedata.img_hobgoblin_jpg@DD Lost Mine of Phandelver">Hobgoblin</link>
-					</linklist>
-					<p>Hobgoblins are cunning, disciplined warriors, who crave conquest. They impose a strict military hierarchy and are often found in the company of goblins and bugbears.</p>
-				</text>
-				<token type="token">tokens/hobgoblin.png@DD Lost Mine of Phandelver</token>
-				<tokenrefid type="string">14</tokenrefid>
-				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't incapacitated.</desc>
-						<name type="string">Martial Advantage</name>
-						<value type="string">Martial advantage [EFF: DMG: 2d6 (T:SELF) (A:ROLL)]</value>
-					</id-00001>
-				</traits>
-				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">9</wounds>
-				<xp type="number">100</xp>
-			</id-00009>
-			<id-00011>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-1</bonus>
-						<score type="number">9</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">14</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">-1</bonus>
-						<score type="number">8</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">2</bonus>
-						<score type="number">15</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">11</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">16</ac>
-				<actext type="string">(hide armor, shield)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.</desc>
-						<name type="string">Morningstar</name>
-						<value type="string">Morningstar [M] [ATK: +4] [DMG: 2d8+2 piercing]</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30 ft./120 ft., one target. Hit: 9 (2d6 + 2) piercing damage.</desc>
-						<name type="string">Javelin</name>
-						<value type="string">Javelin [R] [ATK: +4] [DMG: 2d6+2 piercing]</value>
-					</id-00002>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">chaotic evil</alignment>
-				<cr type="string">1</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">foe</friendfoe>
-				<hd type="string">(5d8 + 5)</hd>
-				<hp type="number">27</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">84</hptotal>
-				<init type="number">2</init>
-				<initresult type="number">7</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">Common, Goblin</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">King Groll</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">darkvision 60 ft.</senses>
-				<size type="string">Medium</size>
-				<skills type="string">Stealth +6, Survival +2</skills>
-				<space type="number">5</space>
-				<speed type="string">30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Dying</status>
-				<text type="formattedtext">
-					<h>Bugbears</h>
-					<linklist>
-						<link class="imagewindow" recordname="reference.imagedata.img_bugbear_jpg@DD Lost Mine of Phandelver">Bugbear</link>
-					</linklist>
-					<p>Bugbears are cruel and unruly humanoids that surviveby raiding and hunting. They live to bully the weak and dislike being bossed around. They have bestial features,with large wedge-shaped ears, ursine noses, and maws filled with sharp fangs. Despite their intimidating builds, bugbears move with surprising stealth and are fond of setting ambushes.</p>
-					<p>King Grol is a fierce old bugbear. He rules the Cragmaws through pure intimidation. Age has stooped his shoulders and hunched his back, but he remains surprisingly agile and strong. He is demanding and vindictive, and no Cragmaw dares to cross him.</p>
-				</text>
-				<token type="token">tokens/kinggroll.png@DD Lost Mine of Phandelver</token>
-				<tokenrefid type="string">8</tokenrefid>
-				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">1</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).</desc>
-						<name type="string">Brute</name>
-						<value type="string">Brute</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.</desc>
-						<name type="string">Surprise Attack</name>
-						<value type="string">Surprise attack [EFF: DMG: 2d6 (T:SELF) (A:ROLL)]</value>
-					</id-00002>
-				</traits>
-				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">91</wounds>
-				<xp type="number">200</xp>
-			</id-00011>
-			<id-00013>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-1</bonus>
-						<score type="number">7</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">3</bonus>
-						<score type="number">16</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
 					</dexterity>
 					<intelligence>
 						<public />
@@ -7700,37 +7015,30 @@
 					</intelligence>
 					<strength>
 						<public />
-						<bonus type="number">4</bonus>
-						<score type="number">19</score>
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
 					</strength>
 					<wisdom>
 						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
 					</wisdom>
 				</abilities>
-				<ac type="number">11</ac>
-				<actext type="string">(natural armor)</actext>
+				<ac type="number">14</ac>
 				<actions>
 					<public />
 					<id-00001>
 						<public />
-						<desc type="string">The bear makes two attacks: one with its bite and one with its claws.</desc>
-						<name type="string">Multiattack</name>
-						<value type="string">Multiattack</value>
+						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, and paralyzed while poisoned in this way.</desc>
+						<name type="string">Bite</name>
+						<value type="string">Bite [M] [ATK: +5] [DMG: 1d8+2 piercing] [SAVEVS: constitution 11 (H)] [DMG: 2d8 poison] [EFF: Stable]</value>
 					</id-00001>
 					<id-00002>
 						<public />
-						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</desc>
-						<name type="string">Bite</name>
-						<value type="string">Bite [M] [ATK: +5] [DMG: 1d8+4 piercing]</value>
+						<desc type="string">Ranged Weapon Attack: +5 to hit, range 30 ft./60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immune to bludgeoning, poison, and psychic damage).</desc>
+						<name type="string">Web (Recharge 5-6)</name>
+						<value type="string">Web [R] [RNG: 30/60] [ATK: +5] [EFF: Restrained] [R:5]</value>
 					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</desc>
-						<name type="string">Claws</name>
-						<value type="string">Claws [M] [ATK: +5] [DMG: 2d6+4 slashing]</value>
-					</id-00003>
 				</actions>
 				<active type="number">0</active>
 				<alignment type="string">unaligned</alignment>
@@ -7740,12 +7048,746 @@
 				<effects>
 					<public />
 				</effects>
-				<friendfoe type="string">friend</friendfoe>
-				<hd type="string">(4d10 + 12)</hd>
-				<hp type="number">34</hp>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(4d10 + 4)</hd>
+				<hp type="number">26</hp>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">36</hptotal>
-				<init type="number">0</init>
+				<hptotal type="number">33</hptotal>
+				<init type="number">3</init>
+				<initresult type="number">5</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Giant Spider 3 (G, spunky)</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 10 ft., darkvision 60 ft., passive Perception 10</senses>
+				<size type="string">Large</size>
+				<skills type="string">Stealth +7</skills>
+				<space type="number">10</space>
+				<speed type="string">30 ft., climb 30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Dying</status>
+				<targets>
+					<public />
+					<id-00001>
+						<public />
+						<noderef type="string">combattracker.list.id-00010</noderef>
+					</id-00001>
+				</targets>
+				<text type="formattedtext">
+					<h>Giant Spider</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.img_giantspider_jpg@DD Lost Mine of Phandelver">Giant Spider</link>
+					</linklist>
+					<p>To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims.</p>
+				</text>
+				<token type="token">tokens/giantspider.png@DD Lost Mine of Phandelver</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</desc>
+						<name type="string">Spider Climb</name>
+						<value type="string">Spider climb</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</desc>
+						<name type="string">Web Sense</name>
+						<value type="string">Web sense</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">The spider ignores movement restrictions caused by magical or nonmagical webbing.</desc>
+						<name type="string">Web Walker</name>
+						<value type="string">Web walker</value>
+					</id-00003>
+				</traits>
+				<type type="string">beast</type>
+				<wounds type="number">33</wounds>
+				<xp type="number">200</xp>
+			</id-00003>
+			<id-00004>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-3</bonus>
+						<score type="number">4</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">2</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">14</ac>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, and paralyzed while poisoned in this way.</desc>
+						<name type="string">Bite</name>
+						<value type="string">Bite [M] [ATK: +5] [DMG: 1d8+2 piercing] [SAVEVS: constitution 11 (H)] [DMG: 2d8 poison] [EFF: Stable]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +5 to hit, range 30 ft./60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immune to bludgeoning, poison, and psychic damage).</desc>
+						<name type="string">Web (Recharge 5-6)</name>
+						<value type="string">Web [R] [RNG: 30/60] [ATK: +5] [EFF: Restrained] [R:5][USED]</value>
+					</id-00002>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">1</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00002>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">RCHG: 5 Web</label>
+					</id-00002>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(4d10 + 4)</hd>
+				<hp type="number">26</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">16</hptotal>
+				<init type="number">3</init>
+				<initresult type="number">22</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Giant Spider 5</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 10 ft., darkvision 60 ft., passive Perception 10</senses>
+				<size type="string">Large</size>
+				<skills type="string">Stealth +7</skills>
+				<space type="number">10</space>
+				<speed type="string">30 ft., climb 30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Heavy</status>
+				<targets>
+					<public />
+					<id-00002>
+						<public />
+						<noderef type="string">combattracker.list.id-00002</noderef>
+					</id-00002>
+				</targets>
+				<text type="formattedtext">
+					<h>Giant Spider</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.img_giantspider_jpg@DD Lost Mine of Phandelver">Giant Spider</link>
+					</linklist>
+					<p>To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims.</p>
+				</text>
+				<token type="token">tokens/giantspider.png@DD Lost Mine of Phandelver</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">1</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</desc>
+						<name type="string">Spider Climb</name>
+						<value type="string">Spider climb</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</desc>
+						<name type="string">Web Sense</name>
+						<value type="string">Web sense</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">The spider ignores movement restrictions caused by magical or nonmagical webbing.</desc>
+						<name type="string">Web Walker</name>
+						<value type="string">Web walker</value>
+					</id-00003>
+				</traits>
+				<type type="string">beast</type>
+				<wounds type="number">12</wounds>
+				<xp type="number">200</xp>
+			</id-00004>
+			<id-00005>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-3</bonus>
+						<score type="number">4</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">3</bonus>
+						<score type="number">16</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">2</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">11</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">14</ac>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 9 (2d8) poison damage on a failed save, or half as much damage on a successful one. If the poison reduces the target to 0 hit points, the target is stable but poisoned for 1 hour, and paralyzed while poisoned in this way.</desc>
+						<name type="string">Bite</name>
+						<value type="string">Bite [M] [ATK: +5] [DMG: 1d8+2 piercing] [SAVEVS: constitution 11 (H)] [DMG: 2d8 poison] [EFF: Stable]</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +5 to hit, range 30 ft./60 ft., one creature. Hit: The target is restrained by webbing. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immune to bludgeoning, poison, and psychic damage).</desc>
+						<name type="string">Web (Recharge 5-6)</name>
+						<value type="string">Web [R] [RNG: 30/60] [ATK: +5] [EFF: Restrained] [R:5][USED]</value>
+					</id-00002>
+				</actions>
+				<active type="number">1</active>
+				<alignment type="string">unaligned</alignment>
+				<cr type="string">1</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">RCHG: 5 Web</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(4d10 + 4)</hd>
+				<hp type="number">26</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">20</hptotal>
+				<init type="number">3</init>
+				<initresult type="number">22</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Giant Spider 4</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 10 ft., darkvision 60 ft., passive Perception 10</senses>
+				<size type="string">Large</size>
+				<skills type="string">Stealth +7</skills>
+				<space type="number">10</space>
+				<speed type="string">30 ft., climb 30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<targets>
+					<public />
+					<id-00001>
+						<public />
+						<noderef type="string">combattracker.list.id-00002</noderef>
+					</id-00001>
+				</targets>
+				<text type="formattedtext">
+					<h>Giant Spider</h>
+					<linklist>
+						<link class="imagewindow" recordname="image.img_giantspider_jpg@DD Lost Mine of Phandelver">Giant Spider</link>
+					</linklist>
+					<p>To snare its prey, a giant spider spins elaborate webs or shoots sticky strands of webbing from its abdomen. Giant spiders are most commonly found underground, making their lairs on ceilings or in dark, web-filled crevices. Such lairs are often festooned with web cocoons holding past victims.</p>
+				</text>
+				<token type="token">tokens/giantspider.png@DD Lost Mine of Phandelver</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">1</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</desc>
+						<name type="string">Spider Climb</name>
+						<value type="string">Spider climb</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">While in contact with a web, the spider knows the exact location of any other creature in contact with the same web.</desc>
+						<name type="string">Web Sense</name>
+						<value type="string">Web sense</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">The spider ignores movement restrictions caused by magical or nonmagical webbing.</desc>
+						<name type="string">Web Walker</name>
+						<value type="string">Web walker</value>
+					</id-00003>
+				</traits>
+				<type type="string">beast</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">200</xp>
+			</id-00005>
+			<id-00006>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer.</desc>
+						<name type="string">Bites</name>
+						<value type="string">Bites [M] [RNG: 0] [ATK: +3] [DMG: 4d4 piercing] [DMG: 2d4 piercing]</value>
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<conditionimmunities type="string">charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionimmunities>
+				<cr type="string">1/2</cr>
+				<damageresistances type="string">bludgeoning, piercing, slashing</damageresistances>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">RESIST: bludgeoning, piercing, slashing; IMMUNE: charmed, frightened, paralyzed, petrified, prone, restrained, stunned</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(5d8)</hd>
+				<hp type="number">22</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">33</hptotal>
+				<init type="number">1</init>
+				<initresult type="number">18</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Swarm of Spiders 12 (Acilper)</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 10 ft., passive Perception 8</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft., climb 20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Heavy</status>
+				<targets>
+					<public />
+					<id-00001>
+						<public />
+						<noderef type="string">combattracker.list.id-00002</noderef>
+					</id-00001>
+				</targets>
+				<text type="formattedtext">
+					<p><b>The Nature of Swarms</b></p>
+					<p>The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.</p>
+					<p><b>Variant: Insect Swarms</b></p>
+					<p>Different kinds of insects can gather in swarms, and each swarm has the special characteristics described below. Swarm of Beetles. A swarm of beetles gains a burrowing speed of 5 feet.</p>
+					<p><b><i>Swarm of Centipedes. </i></b>A creature reduced to 0 hit points by a swarm of centipedes is stable but poisoned for 1 hour, even after regaining hit points, and paralyzed while poisoned in this way.</p>
+					<p><b><i>Swarm of Spiders. </i></b>A swarm of spiders has the following additional traits.</p>
+					<p><b><i>Spider Climb. </i></b>The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>
+					<p><b><i>Web Sense. </i></b>While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.</p>
+					<p><b><i>Web Walker. </i></b>The swarm ignores movement restrictions caused by webbing.</p>
+					<p><b><i>Swarm of Wasps. </i></b>A swarm of wasps has a walking speed of 5 feet, a flying speed of 30 feet, and no climbing speed.</p>
+				</text>
+				<token type="token">tokens/campaign/S.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">1</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points.</desc>
+						<name type="string">Swarm</name>
+						<value type="string">Swarm</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</desc>
+						<name type="string">Spider Climb</name>
+						<value type="string">Spider climb</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.</desc>
+						<name type="string">Web Sense</name>
+						<value type="string">Web sense</value>
+					</id-00003>
+					<id-00004>
+						<public />
+						<desc type="string">The swarm ignores movement restrictions caused by webbing.</desc>
+						<name type="string">Web Walker</name>
+						<value type="string">Web walker</value>
+					</id-00004>
+				</traits>
+				<type type="string">swarm of Tiny beasts</type>
+				<wounds type="number">30</wounds>
+				<xp type="number">100</xp>
+			</id-00006>
+			<id-00007>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer.</desc>
+						<name type="string">Bites</name>
+						<value type="string">Bites [M] [RNG: 0] [ATK: +3] [DMG: 4d4 piercing] [DMG: 2d4 piercing]</value>
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<conditionimmunities type="string">charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionimmunities>
+				<cr type="string">1/2</cr>
+				<damageresistances type="string">bludgeoning, piercing, slashing</damageresistances>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">RESIST: bludgeoning, piercing, slashing; IMMUNE: charmed, frightened, paralyzed, petrified, prone, restrained, stunned</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(5d8)</hd>
+				<hp type="number">22</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">31</hptotal>
+				<init type="number">1</init>
+				<initresult type="number">15</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Swarm of Spiders 1</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">blindsight 10 ft., passive Perception 8</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft., climb 20 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<text type="formattedtext">
+					<p><b>The Nature of Swarms</b></p>
+					<p>The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.</p>
+					<p><b>Variant: Insect Swarms</b></p>
+					<p>Different kinds of insects can gather in swarms, and each swarm has the special characteristics described below. Swarm of Beetles. A swarm of beetles gains a burrowing speed of 5 feet.</p>
+					<p><b><i>Swarm of Centipedes. </i></b>A creature reduced to 0 hit points by a swarm of centipedes is stable but poisoned for 1 hour, even after regaining hit points, and paralyzed while poisoned in this way.</p>
+					<p><b><i>Swarm of Spiders. </i></b>A swarm of spiders has the following additional traits.</p>
+					<p><b><i>Spider Climb. </i></b>The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>
+					<p><b><i>Web Sense. </i></b>While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.</p>
+					<p><b><i>Web Walker. </i></b>The swarm ignores movement restrictions caused by webbing.</p>
+					<p><b><i>Swarm of Wasps. </i></b>A swarm of wasps has a walking speed of 5 feet, a flying speed of 30 feet, and no climbing speed.</p>
+				</text>
+				<token type="token">tokens/campaign/S.png@D&#38;D Out of the Abyss</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points.</desc>
+						<name type="string">Swarm</name>
+						<value type="string">Swarm</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</desc>
+						<name type="string">Spider Climb</name>
+						<value type="string">Spider climb</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.</desc>
+						<name type="string">Web Sense</name>
+						<value type="string">Web sense</value>
+					</id-00003>
+					<id-00004>
+						<public />
+						<desc type="string">The swarm ignores movement restrictions caused by webbing.</desc>
+						<name type="string">Web Walker</name>
+						<value type="string">Web walker</value>
+					</id-00004>
+				</traits>
+				<type type="string">swarm of Tiny beasts</type>
+				<wounds type="number">0</wounds>
+				<xp type="number">100</xp>
+			</id-00007>
+			<id-00008>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">0</bonus>
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-5</bonus>
+						<score type="number">1</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">-4</bonus>
+						<score type="number">3</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">12</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">Melee Weapon Attack: +3 to hit, reach 0 ft., one target in the swarm's space. Hit: 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer.</desc>
+						<name type="string">Bites</name>
+						<value type="string">Bites [M] [RNG: 0] [ATK: +3] [DMG: 4d4 piercing] [DMG: 2d4 piercing]</value>
+					</id-00001>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">unaligned</alignment>
+				<conditionimmunities type="string">charmed, frightened, paralyzed, petrified, prone, restrained, stunned</conditionimmunities>
+				<cr type="string">1/2</cr>
+				<damageresistances type="string">bludgeoning, piercing, slashing</damageresistances>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">RESIST: bludgeoning, piercing, slashing; IMMUNE: charmed, frightened, paralyzed, petrified, prone, restrained, stunned</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(5d8)</hd>
+				<hp type="number">22</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">26</hptotal>
+				<init type="number">1</init>
 				<initresult type="number">4</initresult>
 				<innatespells>
 					<public />
@@ -7762,42 +7804,311 @@
 					<recordname></recordname>
 				</link>
 				<locked type="number">1</locked>
-				<name type="string">Brown Bear</name>
+				<name type="string">Swarm of Spiders 4 (spunky)</name>
 				<reach type="number">5</reach>
 				<reaction type="number">0</reaction>
 				<reactions>
 					<public />
 				</reactions>
-				<senses type="string">passive Perception 13</senses>
-				<size type="string">Large</size>
-				<skills type="string">Perception +3</skills>
-				<space type="number">10</space>
-				<speed type="string">40 ft., climb 30 ft.</speed>
+				<senses type="string">blindsight 10 ft., passive Perception 8</senses>
+				<size type="string">Medium</size>
+				<space type="number">5</space>
+				<speed type="string">20 ft., climb 20 ft.</speed>
 				<spells>
 					<public />
 				</spells>
 				<status type="string">Healthy</status>
+				<targets>
+					<public />
+					<id-00001>
+						<public />
+						<noderef type="string">combattracker.list.id-00010</noderef>
+					</id-00001>
+				</targets>
 				<text type="formattedtext">
-					<p></p>
+					<p><b>The Nature of Swarms</b></p>
+					<p>The swarms presented here aren't ordinary or benign assemblies of little creatures. They form as a result of some sinister or unwholesome influence. A vampire can summon swarms of bats and rats from the darkest corners of the night, while the very presence of a mummy lord can cause scarab beetles to boil up from the sand-filled depths of its tomb. A hag might have the power to turn swarms of ravens against her enemies, while a yuan-ti abomination might have swarms of poisonous snakes slithering in its wake. Even druids can't charm these swarms, and their aggressiveness is borderline unnatural.</p>
+					<p><b>Variant: Insect Swarms</b></p>
+					<p>Different kinds of insects can gather in swarms, and each swarm has the special characteristics described below. Swarm of Beetles. A swarm of beetles gains a burrowing speed of 5 feet.</p>
+					<p><b><i>Swarm of Centipedes. </i></b>A creature reduced to 0 hit points by a swarm of centipedes is stable but poisoned for 1 hour, even after regaining hit points, and paralyzed while poisoned in this way.</p>
+					<p><b><i>Swarm of Spiders. </i></b>A swarm of spiders has the following additional traits.</p>
+					<p><b><i>Spider Climb. </i></b>The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>
+					<p><b><i>Web Sense. </i></b>While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.</p>
+					<p><b><i>Web Walker. </i></b>The swarm ignores movement restrictions caused by webbing.</p>
+					<p><b><i>Swarm of Wasps. </i></b>A swarm of wasps has a walking speed of 5 feet, a flying speed of 30 feet, and no climbing speed.</p>
 				</text>
-				<token type="token">tokens/B.png@DD MM Monster Manual</token>
+				<token type="token">tokens/campaign/S.png@D&#38;D Out of the Abyss</token>
 				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
+				<tokenvis type="number">1</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
 						<public />
-						<desc type="string">The bear has advantage on Wisdom (Perception) checks that rely on smell.</desc>
-						<name type="string">Keen Smell</name>
-						<value type="string">Keen smell</value>
+						<desc type="string">The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points.</desc>
+						<name type="string">Swarm</name>
+						<value type="string">Swarm</value>
 					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</desc>
+						<name type="string">Spider Climb</name>
+						<value type="string">Spider climb</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web.</desc>
+						<name type="string">Web Sense</name>
+						<value type="string">Web sense</value>
+					</id-00003>
+					<id-00004>
+						<public />
+						<desc type="string">The swarm ignores movement restrictions caused by webbing.</desc>
+						<name type="string">Web Walker</name>
+						<value type="string">Web walker</value>
+					</id-00004>
 				</traits>
-				<type type="string">beast</type>
+				<type type="string">swarm of Tiny beasts</type>
 				<wounds type="number">0</wounds>
-				<xp type="number">200</xp>
-			</id-00013>
+				<xp type="number">100</xp>
+			</id-00008>
+			<id-00009>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<bonus type="number">-1</bonus>
+						<score type="number">8</score>
+					</charisma>
+					<constitution>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">13</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">15</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<bonus type="number">-2</bonus>
+						<score type="number">7</score>
+					</intelligence>
+					<strength>
+						<public />
+						<bonus type="number">2</bonus>
+						<score type="number">14</score>
+					</strength>
+					<wisdom>
+						<public />
+						<bonus type="number">1</bonus>
+						<score type="number">12</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">13</ac>
+				<actext type="string">(natural armor)</actext>
+				<actions>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The ettercap makes two attacks: one with its bite and one with its claws.</desc>
+						<name type="string">Multiattack</name>
+						<value type="string">Multiattack</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage + 4 (1d8) poison damage. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</desc>
+						<name type="string">Bite</name>
+						<value type="string">Bite [M] [ATK: +4] [DMG: 1d8+2 piercing + 1d8 poison] [SAVEVS: constitution 11] [EFF: Poisoned (D:1 MIN)]</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.</desc>
+						<name type="string">Claws</name>
+						<value type="string">Claws [M] [ATK: +4] [DMG: 2d4+2 slashing]</value>
+					</id-00003>
+					<id-00004>
+						<public />
+						<desc type="string">Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, is vulnerable to fire damage and immune to bludgeoning damage.</desc>
+						<name type="string">Web (Recharge 5-6)</name>
+						<value type="string">Web [R] [ATK: +4] [EFF: Restrained] [R:5][USED]</value>
+					</id-00004>
+				</actions>
+				<active type="number">0</active>
+				<alignment type="string">neutral evil</alignment>
+				<cr type="string">2</cr>
+				<deathsavefail type="number">0</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+					<id-00001>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">0</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">1</isgmonly>
+						<label type="string">RCHG: 5 Web</label>
+					</id-00001>
+				</effects>
+				<friendfoe type="string">foe</friendfoe>
+				<hd type="string">(8d8 + 8)</hd>
+				<hp type="number">44</hp>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">48</hptotal>
+				<init type="number">2</init>
+				<initresult type="number">9</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<languages type="string">-</languages>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>npc</class>
+					<recordname></recordname>
+				</link>
+				<locked type="number">1</locked>
+				<name type="string">Ettercap</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<senses type="string">darkvision 60 ft., passive Perception 13</senses>
+				<size type="string">Medium</size>
+				<skills type="string">Perception +3, Stealth +4, Survival +3</skills>
+				<space type="number">5</space>
+				<speed type="string">30 ft., climb 30 ft.</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Heavy</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<h>Ettercap</h>
+					<linklist>
+						<link class="imagewindow" recordname="reference.imagedata.img_ettercap_jpg@*">Image: Ettercap</link>
+					</linklist>
+					<p>Ettercaps are humanoid spiders that tend, feed, and watch over spiders the way a shepherd oversees a flock of sheep. They lair deep in remote forests.</p>
+					<p>Fine strands of silk stream from glands in an ettercap's abdomen, letting it shoot sticky strands of webbing to bind, entrap, or strangle its victims. It can also use its webbing to fashion elaborate snares and nets, which often festoon its lair.</p>
+					<p><b><i>Quiet Killers. </i></b>When travelers and explorers venture into an ettercap's territory, the ettercap stalks them. Some meet their end wandering blindly into traps or sections of forest enclosed by webs. Others, the ettercap garrotes with strands of web or envenoms with its poisonous bite.</p>
+					<p><b><i>Sylvan Despoilers. </i></b>Though they dwell in the wilds, ettercaps have no desire to live in harmony with nature. A forest infested with ettercaps transforms into a gloomy place, choked with webs and infested with giant spiders, giant insects, and other sinister predators. Creatures that wander too far into such a wood are soon lost in a maze of webs that dangle with the bones and lost treasures of the ettercaps' victims.</p>
+					<p><b><i>Enemies of the Fey. </i></b>Ettercaps are natural enemies of fey creatures. The foul creatures set web snares to catch sprites and pixies, which they hungrily devour, and will encase a dryad's tree in webbing in a vain attempt to trap the dryad. Otherwise timid fey will sometimes approach outsiders for help in dealing with an ettercap infestation, being ill-equipped to deal with the malevolent creatures themselves.</p>
+				</text>
+				<token type="token">tokens/ettercap.png@DD MM Monster Manual</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">1</tokenvis>
+				<traits>
+					<public />
+					<id-00001>
+						<public />
+						<desc type="string">The ettercap can climb difficult surfaces,including upside down on ceilings, without needing to make an ability check.</desc>
+						<name type="string">Spider Climb</name>
+						<value type="string">Spider climb</value>
+					</id-00001>
+					<id-00002>
+						<public />
+						<desc type="string">While in contact with a web, the ettercap knows the exact location of any other creature in contact with the same web.</desc>
+						<name type="string">Web Sense</name>
+						<value type="string">Web sense</value>
+					</id-00002>
+					<id-00003>
+						<public />
+						<desc type="string">The ettercap ignores movement restrictions caused by webbing.</desc>
+						<name type="string">Web Walker</name>
+						<value type="string">Web walker</value>
+					</id-00003>
+				</traits>
+				<type type="string">monstrosity</type>
+				<wounds type="number">25</wounds>
+				<xp type="number">450</xp>
+			</id-00009>
+			<id-00010>
+				<public />
+				<abilities>
+					<public />
+					<charisma>
+						<public />
+						<score type="number">10</score>
+					</charisma>
+					<constitution>
+						<public />
+						<score type="number">10</score>
+					</constitution>
+					<dexterity>
+						<public />
+						<score type="number">10</score>
+					</dexterity>
+					<intelligence>
+						<public />
+						<score type="number">10</score>
+					</intelligence>
+					<strength>
+						<public />
+						<score type="number">10</score>
+					</strength>
+					<wisdom>
+						<public />
+						<score type="number">10</score>
+					</wisdom>
+				</abilities>
+				<ac type="number">10</ac>
+				<actions>
+					<public />
+				</actions>
+				<active type="number">0</active>
+				<deathsavefail type="number">3</deathsavefail>
+				<deathsavesuccess type="number">0</deathsavesuccess>
+				<effects>
+					<public />
+				</effects>
+				<friendfoe type="string">friend</friendfoe>
+				<hptemp type="number">0</hptemp>
+				<hptotal type="number">0</hptotal>
+				<init type="number">0</init>
+				<initresult type="number">11</initresult>
+				<innatespells>
+					<public />
+				</innatespells>
+				<lairactions>
+					<public />
+				</lairactions>
+				<legendaryactions>
+					<public />
+				</legendaryactions>
+				<link type="windowreference">
+					<class>charsheet</class>
+					<recordname>charsheet.id-00004</recordname>
+				</link>
+				<name type="string">spunky</name>
+				<reach type="number">5</reach>
+				<reaction type="number">0</reaction>
+				<reactions>
+					<public />
+				</reactions>
+				<space type="number">5</space>
+				<speed type="string">0</speed>
+				<spells>
+					<public />
+				</spells>
+				<status type="string">Healthy</status>
+				<token type="token">portrait_id-00004_token</token>
+				<tokenscale type="number">1</tokenscale>
+				<tokenvis type="number">0</tokenvis>
+				<traits>
+					<public />
+				</traits>
+				<wounds type="number">0</wounds>
+			</id-00010>
 		</list>
-		<round type="number">5</round>
+		<round type="number">9</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -8096,6 +8407,20 @@
 			<type type="string">Wand</type>
 			<weight type="number">0</weight>
 		</id-00002>
+		<id-00003>
+			<ac type="number">0</ac>
+			<bonus type="number">0</bonus>
+			<description type="formattedtext">
+				<p>Given to you by Snow Moonpool, the cat creature you rescued from the Ettercap. She said that blowing the horn like a whistle would call Snow and her pixie friends anywhere within Neverwinter Forest.</p>
+			</description>
+			<isidentified type="number">0</isidentified>
+			<istemplate type="number">0</istemplate>
+			<locked type="number">1</locked>
+			<name type="string">Tiny Unicorn Horn</name>
+			<rarity type="string">Rare</rarity>
+			<type type="string">Wondrous Item</type>
+			<weight type="number">0</weight>
+		</id-00003>
 	</item>
 	<languages>
 		<public />
@@ -11044,7 +11369,7 @@
 				<watchid type="number">3</watchid>
 				<wisbonus type="number">2</wisbonus>
 				<wisdom type="number">14</wisdom>
-				<wounds type="number">13</wounds>
+				<wounds type="number">23</wounds>
 			</id-00002>
 			<id-00003>
 				<public />

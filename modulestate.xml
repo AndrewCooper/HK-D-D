@@ -39,28 +39,17 @@
 	<module name="DD Volos Guide to Monsters">
 		<loaded />
 	</module>
-	<module name="DandD Wiki">
-		<loaded />
-		<allow />
-	</module>
 	<module name="Default Fumble and Critical Hit Tables">
 		<loaded />
 	</module>
 	<module name="FG Battle Maps">
 		<loaded />
 	</module>
-	<module name="Immortal Nights">
+	<module name="Into the Wild">
 		<loaded />
 	</module>
 	<module name="Monster Tokens">
 		<loaded />
-	</module>
-	<module name="Random NPC Generator [Generic]">
-		<loaded />
-	</module>
-	<module name="Sprouting Chaos">
-		<loaded />
-		<allow />
 	</module>
 	<module name="Ultimate NPCsSkulduggery 5E">
 		<loaded />
