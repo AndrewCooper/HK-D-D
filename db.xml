@@ -2332,7 +2332,7 @@
 				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
 				<total type="number">23</total>
-				<wounds type="number">0</wounds>
+				<wounds type="number">12</wounds>
 			</hp>
 			<ideals type="string">Equality. We all bleed red, we all suffer together \nStatus Quo. Status is defined by clear rules which are the foundation of civilization. (Lawful)</ideals>
 			<initiative>
@@ -2825,12 +2825,12 @@
 				<spellslots1>
 					<holder name="jarodmerle" owner="true" />
 					<max type="number">4</max>
-					<used type="number">2</used>
+					<used type="number">4</used>
 				</spellslots1>
 				<spellslots2>
 					<holder name="jarodmerle" owner="true" />
 					<max type="number">3</max>
-					<used type="number">2</used>
+					<used type="number">3</used>
 				</spellslots2>
 				<spellslots3>
 					<holder name="jarodmerle" owner="true" />
@@ -2905,6 +2905,49 @@
 					<school type="string">Transmutation</school>
 					<source type="string">Bard, Druid, Ranger, Sorcerer, Warlock, Wizard</source>
 				</id-00001>
+				<id-00002>
+					<holder name="jarodmerle" owner="true" />
+					<actions>
+						<holder name="jarodmerle" owner="true" />
+						<id-00001>
+							<holder name="jarodmerle" owner="true" />
+							<onmissdamage type="string">half</onmissdamage>
+							<order type="number">1</order>
+							<savetype type="string">wisdom</savetype>
+							<type type="string">cast</type>
+						</id-00001>
+						<id-00002>
+							<holder name="jarodmerle" owner="true" />
+							<damagelist>
+								<holder name="jarodmerle" owner="true" />
+								<id-00001>
+									<holder name="jarodmerle" owner="true" />
+									<dice type="dice">d6,d6,d6</dice>
+									<type type="string">psychic</type>
+								</id-00001>
+							</damagelist>
+							<order type="number">2</order>
+							<type type="string">damage</type>
+						</id-00002>
+					</actions>
+					<cast type="number">0</cast>
+					<castingtime type="string">1 action</castingtime>
+					<components type="string">V</components>
+					<description type="formattedtext">
+						<p>You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.</p>
+						<p><b>At Higher Levels. </b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>
+					</description>
+					<duration type="string">Instantaneous</duration>
+					<group type="string">Spells</group>
+					<level type="number">1</level>
+					<locked type="number">1</locked>
+					<name type="string">Dissonant Whispers</name>
+					<prepared type="number">0</prepared>
+					<range type="string">60 feet</range>
+					<ritual type="number">0</ritual>
+					<school type="string">Enchantment</school>
+					<source type="string">Bard, Eldritch Master (Great Old One)</source>
+				</id-00002>
 				<id-00003>
 					<holder name="jarodmerle" owner="true" />
 					<actions>
@@ -3226,6 +3269,7 @@
 					<name type="string">Dissonant Whispers</name>
 					<prepared type="number">0</prepared>
 					<range type="string">60 feet</range>
+					<ritual type="number">0</ritual>
 					<school type="string">Enchantment</school>
 					<source type="string">Bard, Eldritch Master (Great Old One)</source>
 				</id-00015>
@@ -4236,6 +4280,7 @@
 					<isidentified type="number">1</isidentified>
 					<locked type="number">1</locked>
 					<name type="string">Malachite Gems</name>
+					<weight type="number">0</weight>
 				</id-00022>
 				<id-00023>
 					<holder name="Alex" owner="true" />
@@ -6756,7 +6801,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">23</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">7</initresult>
+				<initresult type="number">21</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -6781,7 +6826,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Heavy</status>
 				<targets>
 					<public />
 				</targets>
@@ -6791,7 +6836,7 @@
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">0</wounds>
+				<wounds type="number">12</wounds>
 			</id-00001>
 			<id-00002>
 				<public />
@@ -6836,7 +6881,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">44</hptotal>
 				<init type="number">3</init>
-				<initresult type="number">12</initresult>
+				<initresult type="number">4</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -6954,7 +6999,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">33</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">13</initresult>
+				<initresult type="number">4</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -6984,7 +7029,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Light</status>
+				<status type="string">Moderate</status>
 				<text type="formattedtext">
 					<p>Cousin of Gundren Rockseeker, Brosenelyn manages the caravan teams running supplies between Neverwinter and Phandalin.</p>
 					<p>The party rides with her on their initial journey to Phandalin, when they find the remains of Gundren and SIldar's horses and Gundren's empty map case.</p>
@@ -6996,7 +7041,7 @@
 					<public />
 				</traits>
 				<type type="string">humanoid (hill dwarf)</type>
-				<wounds type="number">4</wounds>
+				<wounds type="number">11</wounds>
 				<xp type="number">700</xp>
 			</id-00003>
 			<id-00004>
@@ -7059,7 +7104,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">24</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">6</initresult>
+				<initresult type="number">3</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -7173,7 +7218,7 @@
 					<public />
 					<charisma>
 						<public />
-						<bonus type="number">-1</bonus>
+						<bonus type="number">-2</bonus>
 						<score type="number">7</score>
 					</charisma>
 					<constitution>
@@ -7239,7 +7284,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">36</hptotal>
 				<init type="number">0</init>
-				<initresult type="number">6</initresult>
+				<initresult type="number">3</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -7269,7 +7314,13 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Critical</status>
+				<targets>
+					<public />
+				</targets>
+				<text type="formattedtext">
+					<p></p>
+				</text>
 				<token type="token">tokens/B.png@DD MM Monster Manual</token>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
@@ -7283,7 +7334,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">beast</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">33</wounds>
 				<xp type="number">200</xp>
 			</id-00005>
 			<id-00006>
@@ -7319,7 +7370,7 @@
 				<actions>
 					<public />
 				</actions>
-				<active type="number">0</active>
+				<active type="number">1</active>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
@@ -7329,7 +7380,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">31</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">13</initresult>
+				<initresult type="number">11</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -7356,6 +7407,8 @@
 				</spells>
 				<status type="string">Moderate</status>
 				<token type="token">portrait_id-00003_token</token>
+				<tokenrefid type="string">51</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
@@ -8233,6 +8286,9 @@
 					<public />
 				</spells>
 				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
 				<text type="formattedtext">
 					<h>Goblins</h>
 					<linklist>
@@ -9120,7 +9176,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
 				<text type="formattedtext">
 					<h>Goblins</h>
 					<linklist>
@@ -9143,7 +9199,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">17</wounds>
 				<xp type="number">50</xp>
 			</id-00026>
 			<id-00027>
@@ -9207,7 +9263,7 @@
 				<active type="number">0</active>
 				<alignment type="string">neutral evil</alignment>
 				<cr type="string">1/4</cr>
-				<deathsavefail type="number">0</deathsavefail>
+				<deathsavefail type="number">3</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
@@ -9248,7 +9304,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dead</status>
 				<text type="formattedtext">
 					<h>Goblins</h>
 					<linklist>
@@ -9271,7 +9327,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">6</wounds>
 				<xp type="number">50</xp>
 			</id-00027>
 			<id-00028>
@@ -9335,7 +9391,7 @@
 				<active type="number">0</active>
 				<alignment type="string">neutral evil</alignment>
 				<cr type="string">1/4</cr>
-				<deathsavefail type="number">0</deathsavefail>
+				<deathsavefail type="number">3</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
@@ -9376,7 +9432,10 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
+				<targets>
+					<public />
+				</targets>
 				<text type="formattedtext">
 					<h>Goblins</h>
 					<linklist>
@@ -9399,7 +9458,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">10</wounds>
 				<xp type="number">50</xp>
 			</id-00028>
 			<id-00029>
@@ -9482,7 +9541,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">35</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">8</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -9511,7 +9570,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
 				<text type="formattedtext">
 					<h>Grick</h>
 					<linklist>
@@ -9523,7 +9582,7 @@
 				<tokenrefid type="string">34</tokenrefid>
 				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1.25</tokenscale>
-				<tokenvis type="number">0</tokenvis>
+				<tokenvis type="number">1</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
@@ -9534,7 +9593,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">monstrosity</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">35</wounds>
 				<xp type="number">450</xp>
 			</id-00029>
 			<id-00030>
@@ -9737,7 +9796,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">7</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">12</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -9767,7 +9826,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
 				<text type="formattedtext">
 					<h>Goblins</h>
 					<linklist>
@@ -9779,7 +9838,7 @@
 				<tokenrefid type="string">36</tokenrefid>
 				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">2.5</tokenscale>
-				<tokenvis type="number">0</tokenvis>
+				<tokenvis type="number">1</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
@@ -9790,7 +9849,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">7</wounds>
 				<xp type="number">50</xp>
 			</id-00031>
 			<id-00032>
@@ -9859,7 +9918,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">8</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">17</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -9889,7 +9948,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
 				<text type="formattedtext">
 					<h>Goblins</h>
 					<linklist>
@@ -9901,7 +9960,7 @@
 				<tokenrefid type="string">37</tokenrefid>
 				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">2.5</tokenscale>
-				<tokenvis type="number">0</tokenvis>
+				<tokenvis type="number">1</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
@@ -9912,7 +9971,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">8</wounds>
 				<xp type="number">50</xp>
 			</id-00032>
 			<id-00033>
@@ -9921,7 +9980,7 @@
 					<public />
 					<charisma>
 						<public />
-						<bonus type="number">-1</bonus>
+						<bonus type="number">-2</bonus>
 						<score type="number">7</score>
 					</charisma>
 					<constitution>
@@ -9936,7 +9995,7 @@
 					</dexterity>
 					<intelligence>
 						<public />
-						<bonus type="number">-3</bonus>
+						<bonus type="number">-4</bonus>
 						<score type="number">3</score>
 					</intelligence>
 					<strength>
@@ -10225,6 +10284,15 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
+					<id-00001>
+						<public />
+						<duration type="number">8</duration>
+						<init type="number">3</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">0</isgmonly>
+						<label type="string">Unconscious</label>
+						<source_name type="string">combattracker.list.id-00005</source_name>
+					</id-00001>
 				</effects>
 				<friendfoe type="string">foe</friendfoe>
 				<hd type="string">(2d8 + 2)</hd>
@@ -10261,7 +10329,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
 				<text type="formattedtext">
 					<h>Hobgoblins</h>
 					<linklist>
@@ -10284,7 +10352,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">20</wounds>
 				<xp type="number">100</xp>
 			</id-00035>
 			<id-00036>
@@ -10467,6 +10535,15 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
+					<id-00001>
+						<public />
+						<duration type="number">8</duration>
+						<init type="number">3</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">0</isgmonly>
+						<label type="string">Unconscious</label>
+						<source_name type="string">combattracker.list.id-00005</source_name>
+					</id-00001>
 				</effects>
 				<friendfoe type="string">foe</friendfoe>
 				<hd type="string">(2d8 + 2)</hd>
@@ -10503,7 +10580,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
 				<text type="formattedtext">
 					<h>Hobgoblins</h>
 					<linklist>
@@ -10526,7 +10603,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">12</wounds>
 				<xp type="number">100</xp>
 			</id-00037>
 			<id-00038>
@@ -10581,21 +10658,13 @@
 						<value type="string">Longbow [R] [RNG: 150/600] [ATK: +3] [DMG: 1d8+1 piercing]</value>
 					</id-00002>
 				</actions>
-				<active type="number">1</active>
+				<active type="number">0</active>
 				<alignment type="string">lawful evil</alignment>
 				<cr type="string">1/2</cr>
 				<deathsavefail type="number">0</deathsavefail>
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
-					<id-00001>
-						<public />
-						<duration type="number">10</duration>
-						<init type="number">0</init>
-						<isactive type="number">1</isactive>
-						<isgmonly type="number">0</isgmonly>
-						<label type="string">Unconscious</label>
-					</id-00001>
 				</effects>
 				<friendfoe type="string">foe</friendfoe>
 				<hd type="string">(2d8 + 2)</hd>
@@ -10632,7 +10701,10 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
+				<targets>
+					<public />
+				</targets>
 				<text type="formattedtext">
 					<h>Hobgoblins</h>
 					<linklist>
@@ -10655,7 +10727,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">14</wounds>
 				<xp type="number">100</xp>
 			</id-00038>
 			<id-00039>
@@ -10874,7 +10946,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Heavy</status>
+				<status type="string">Dying</status>
 				<text type="formattedtext">
 					<h>Hobgoblins</h>
 					<linklist>
@@ -10897,7 +10969,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">humanoid (goblinoid)</type>
-				<wounds type="number">9</wounds>
+				<wounds type="number">15</wounds>
 				<xp type="number">100</xp>
 			</id-00040>
 			<id-00041>
@@ -11022,10 +11094,16 @@
 				<xp type="number">100</xp>
 			</id-00041>
 		</list>
-		<round type="number">2</round>
+		<round type="number">5</round>
 	</combattracker>
 	<effects>
 		<public />
+		<id-00001>
+			<public />
+			<duration type="number">10</duration>
+			<isgmonly type="number">0</isgmonly>
+			<label type="string">Unconscious</label>
+		</id-00001>
 	</effects>
 	<encounter>
 		<category name="HK D&#38;D" baseicon="0" decalicon="4">
@@ -12858,6 +12936,7 @@
 		<SHNPC type="string">detailed</SHNPC>
 		<SHRR type="string">on</SHRR>
 		<TASG type="string">80</TASG>
+		<TBOX type="string">on</TBOX>
 		<TEMPMEASURE type="string">fahrenheit</TEMPMEASURE>
 		<TNAM type="string">tooltip</TNAM>
 		<TNPCH type="string">bar</TNPCH>
@@ -14270,7 +14349,7 @@
 				<watchid type="number">2</watchid>
 				<wisbonus type="number">2</wisbonus>
 				<wisdom type="number">14</wisdom>
-				<wounds type="number">0</wounds>
+				<wounds type="number">12</wounds>
 			</id-00001>
 			<id-00002>
 				<public />
@@ -14429,6 +14508,8 @@
 		</backgrounddata>
 	</reference>
 	<sTownParentName type="string">Redbrand Hideout</sTownParentName>
+	<spell>
+	</spell>
 	<spells>
 	</spells>
 	<tables>

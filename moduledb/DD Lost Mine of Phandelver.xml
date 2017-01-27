@@ -485,112 +485,14 @@
 						</shortcut>
 					</shortcuts>
 					<tokens>
-						<idcounter>50</idcounter>
+						<idcounter>52</idcounter>
 						<scalelock>3.87</scalelock>
-						<token>
-							<prototype>portrait_id-00002_token</prototype>
-							<id>2</id>
-							<x>821</x>
-							<y>298</y>
-						</token>
 						<token>
 							<prototype>portrait_id-00003_token</prototype>
 							<id>1</id>
 							<x>926</x>
 							<y>263</y>
 							<orientation>4</orientation>
-						</token>
-						<token>
-							<prototype>portrait_id-00001_token</prototype>
-							<id>3</id>
-							<x>891</x>
-							<y>228</y>
-						</token>
-						<token>
-							<prototype>tokens/druid.png@DD MM Monster Manual</prototype>
-							<id>10</id>
-							<x>821</x>
-							<y>263</y>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>19</id>
-							<x>225</x>
-							<y>580</y>
-							<scale>2.5</scale>
-							<name>Goblin 1</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>20</id>
-							<x>255</x>
-							<y>610</y>
-							<scale>2.5</scale>
-							<name>Goblin 2</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>21</id>
-							<x>195</x>
-							<y>580</y>
-							<scale>2.5</scale>
-							<name>Goblin 3</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>22</id>
-							<x>225</x>
-							<y>330</y>
-							<scale>2.5</scale>
-							<name>Goblin 4</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>23</id>
-							<x>195</x>
-							<y>300</y>
-							<scale>2.5</scale>
-							<name>Goblin 5</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>24</id>
-							<x>225</x>
-							<y>545</y>
-							<scale>2.5</scale>
-							<name>Goblin 6</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>25</id>
-							<x>190</x>
-							<y>545</y>
-							<scale>2.5</scale>
-							<name>Goblin 7</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/yegg.png@DD Lost Mine of Phandelver</prototype>
-							<id>26</id>
-							<x>475</x>
-							<y>440</y>
-							<scale>2.5</scale>
-							<name>Yegg</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
 						</token>
 						<token>
 							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
@@ -633,156 +535,6 @@
 							<visibilitylocked>off</visibilitylocked>
 						</token>
 						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>31</id>
-							<x>505</x>
-							<y>475</y>
-							<scale>2.5</scale>
-							<name>Goblin 12</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>32</id>
-							<x>505</x>
-							<y>510</y>
-							<scale>2.5</scale>
-							<name>Goblin 13</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>33</id>
-							<x>405</x>
-							<y>440</y>
-							<scale>2.5</scale>
-							<name>Goblin 14</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/grick.png@DD Lost Mine of Phandelver</prototype>
-							<id>34</id>
-							<x>405</x>
-							<y>335</y>
-							<scale>1.25</scale>
-							<name>Grick</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>35</id>
-							<x>475</x>
-							<y>195</y>
-							<scale>2.5</scale>
-							<name>Goblin 15</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>36</id>
-							<x>440</x>
-							<y>195</y>
-							<scale>2.5</scale>
-							<name>Goblin 16</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/lhupo.png@DD Lost Mine of Phandelver</prototype>
-							<id>37</id>
-							<x>475</x>
-							<y>125</y>
-							<scale>2.5</scale>
-							<name>Lhupo</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>42</id>
-							<x>155</x>
-							<y>265</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 1</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>44</id>
-							<x>190</x>
-							<y>260</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 3</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>45</id>
-							<x>160</x>
-							<y>230</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 4</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>46</id>
-							<x>790</x>
-							<y>440</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 5</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>47</id>
-							<x>751</x>
-							<y>368</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 6</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>48</id>
-							<x>716</x>
-							<y>438</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 7</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>49</id>
-							<x>750</x>
-							<y>475</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 8</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
-							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
-							<id>43</id>
-							<x>191</x>
-							<y>193</y>
-							<scale>1.4196</scale>
-							<name>Hobgoblin 2</name>
-							<unmodifiable />
-							<visibilitylocked>off</visibilitylocked>
-						</token>
-						<token>
 							<prototype>tokens/owlbear.png@DD Lost Mine of Phandelver</prototype>
 							<id>38</id>
 							<x>699</x>
@@ -793,11 +545,273 @@
 							<visibilitylocked>off</visibilitylocked>
 						</token>
 						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>21</id>
+							<x>174</x>
+							<y>648</y>
+							<scale>2.5</scale>
+							<name>Goblin 3</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>22</id>
+							<x>139</x>
+							<y>648</y>
+							<scale>2.5</scale>
+							<name>Goblin 4</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>23</id>
+							<x>139</x>
+							<y>613</y>
+							<scale>2.5</scale>
+							<name>Goblin 5</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>25</id>
+							<x>139</x>
+							<y>578</y>
+							<scale>2.5</scale>
+							<name>Goblin 7</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/yegg.png@DD Lost Mine of Phandelver</prototype>
+							<id>26</id>
+							<x>314</x>
+							<y>648</y>
+							<scale>2.5</scale>
+							<name>Yegg</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>44</id>
+							<x>331</x>
+							<y>438</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 3</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>42</id>
+							<x>506</x>
+							<y>438</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 1</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>19</id>
+							<x>664</x>
+							<y>53</y>
+							<scale>2.5</scale>
+							<name>Goblin 1</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>20</id>
+							<x>629</x>
+							<y>53</y>
+							<scale>2.5</scale>
+							<name>Goblin 2</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>33</id>
+							<x>979</x>
+							<y>176</y>
+							<scale>2.5</scale>
+							<name>Goblin 14</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>32</id>
+							<x>979</x>
+							<y>211</y>
+							<scale>2.5</scale>
+							<name>Goblin 13</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>24</id>
+							<x>996</x>
+							<y>246</y>
+							<scale>2.5</scale>
+							<name>Goblin 6</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>46</id>
+							<x>996</x>
+							<y>281</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 5</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>48</id>
+							<x>979</x>
+							<y>316</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 7</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>31</id>
+							<x>979</x>
+							<y>351</y>
+							<scale>2.5</scale>
+							<name>Goblin 12</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>49</id>
+							<x>804</x>
+							<y>491</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 8</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>47</id>
+							<x>821</x>
+							<y>456</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 6</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>45</id>
+							<x>839</x>
+							<y>403</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 4</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/hobgoblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>43</id>
+							<x>856</x>
+							<y>438</y>
+							<scale>1.4196</scale>
+							<name>Hobgoblin 2</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
 							<prototype>tokens/host/bronselyn.png</prototype>
 							<id>50</id>
-							<x>856</x>
-							<y>158</y>
+							<x>891</x>
+							<y>281</y>
 							<scale>1.69313</scale>
+							<orientation>1</orientation>
+						</token>
+						<token>
+							<prototype>tokens/dwarf_male_beggar_a_01.png@Character Tokens</prototype>
+							<id>52</id>
+							<x>856</x>
+							<y>263</y>
+							<scale>0.846563</scale>
+							<orientation>7</orientation>
+						</token>
+						<token>
+							<prototype>tokens/grick.png@DD Lost Mine of Phandelver</prototype>
+							<id>34</id>
+							<x>471</x>
+							<y>333</y>
+							<scale>1.25</scale>
+							<name>Grick</name>
+							<unmodifiable />
+						</token>
+						<token>
+							<prototype>tokens/druid.png@DD MM Monster Manual</prototype>
+							<id>10</id>
+							<x>471</x>
+							<y>298</y>
+						</token>
+						<token>
+							<prototype>portrait_id-00002_token</prototype>
+							<id>2</id>
+							<x>436</x>
+							<y>298</y>
+						</token>
+						<token>
+							<prototype>portrait_id-00003_token</prototype>
+							<id>51</id>
+							<x>401</x>
+							<y>403</y>
+							<name>Tymenos</name>
+							<visibilitylocked>on</visibilitylocked>
+						</token>
+						<token>
+							<prototype>portrait_id-00001_token</prototype>
+							<id>3</id>
+							<x>471</x>
+							<y>403</y>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>35</id>
+							<x>506</x>
+							<y>211</y>
+							<scale>2.5</scale>
+							<name>Goblin 15</name>
+							<unmodifiable />
+							<visibilitylocked>off</visibilitylocked>
+						</token>
+						<token>
+							<prototype>tokens/goblin.png@DD Lost Mine of Phandelver</prototype>
+							<id>36</id>
+							<x>401</x>
+							<y>281</y>
+							<scale>2.5</scale>
+							<name>Goblin 16</name>
+							<unmodifiable />
+						</token>
+						<token>
+							<prototype>tokens/lhupo.png@DD Lost Mine of Phandelver</prototype>
+							<id>37</id>
+							<x>506</x>
+							<y>281</y>
+							<scale>2.5</scale>
+							<name>Lhupo</name>
+							<unmodifiable />
 						</token>
 					</tokens>
 				</image>
@@ -1491,7 +1505,7 @@
 							<endx>594</endx>
 							<endy>1118</endy>
 							<owner></owner>
-							<color>ff2a0070</color>
+							<color>28c31e</color>
 						</pointer>
 						<pointer>
 							<id>2</id>
@@ -1501,7 +1515,7 @@
 							<endx>644</endx>
 							<endy>916</endy>
 							<owner></owner>
-							<color>ff2a0070</color>
+							<color>28c31e</color>
 						</pointer>
 					</pointers>
 				</image>
@@ -1646,6 +1660,9 @@
 		<category name="Maps - DD Lost Mine of Phandelver" baseicon="2" decalicon="1">
 		</category>
 		<category name="Monsters - DD Lost Mine of Phandelver" baseicon="2" decalicon="1">
+			<img_grick_jpg>
+				<public />
+			</img_grick_jpg>
 		</category>
 	</image>
 	<npc>

@@ -12,10 +12,4 @@
 	<extension name="DOEWeather">
 		<loaded />
 	</extension>
-	<extension name="5E_Ref_Decal">
-		<loaded />
-	</extension>
-	<extension name="Decal_MM">
-		<loaded />
-	</extension>
 </extensionstate>
