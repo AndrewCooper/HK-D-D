@@ -9,14 +9,14 @@
 	<module name="Character Tokens">
 		<loaded />
 	</module>
-	<module name="D&#38;D Out of the Abyss">
-		<loaded />
+	<module name="D&#38;D Sword Coast Adventurer's Guide - Player's Guide">
+		<allow />
 	</module>
 	<module name="DD Basic Rules - DM">
 		<allow />
 	</module>
 	<module name="DD Basic Rules - Player">
-		<loaded />
+		<allow />
 	</module>
 	<module name="DD Dungeon Masters Guide">
 		<loaded />
@@ -31,6 +31,7 @@
 	</module>
 	<module name="DD MM Monster Manual">
 		<loaded />
+		<disallow />
 	</module>
 	<module name="DD PHB Deluxe">
 		<loaded />
@@ -39,22 +40,46 @@
 	<module name="DD Volos Guide to Monsters">
 		<loaded />
 	</module>
+	<module name="DD5E SRD Bestiary">
+		<disallow />
+	</module>
+	<module name="DD5E SRD Data">
+		<disallow />
+	</module>
+	<module name="DD5E SRD Magic Items">
+		<disallow />
+	</module>
+	<module name="DOE: Locations Manual">
+		<disallow />
+	</module>
+	<module name="DOE: Sound Manual">
+		<disallow />
+	</module>
+	<module name="DOE: Weather Manual">
+		<disallow />
+	</module>
+	<module name="DandD Wiki">
+		<disallow />
+	</module>
 	<module name="Default Fumble and Critical Hit Tables">
 		<loaded />
 	</module>
-	<module name="FG Battle Maps">
-		<loaded />
-	</module>
-	<module name="Into the Wild">
-		<loaded />
+	<module name="Immortal Nights">
+		<disallow />
 	</module>
 	<module name="Monster Tokens">
 		<loaded />
 	</module>
-	<module name="Ultimate NPCsSkulduggery 5E">
+	<module name="Sprouting Chaos">
 		<loaded />
+		<allow />
+	</module>
+	<module name="Unearthed Arcana">
+		<loaded />
+		<allow />
 	</module>
 	<module name="Volos Guide to Monsters Players">
 		<loaded />
+		<allow />
 	</module>
 </modulestate>

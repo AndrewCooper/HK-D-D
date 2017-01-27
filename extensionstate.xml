@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <extensionstate version="3.2">
-	<extension name="5E_Theme_Wizards">
+	<extension name="DOEBase">
 		<loaded />
 	</extension>
-	<extension name="Decal_LMOP">
+	<extension name="DOELocations">
+		<loaded />
+	</extension>
+	<extension name="DOEOrganisations">
+		<loaded />
+	</extension>
+	<extension name="DOEWeather">
+		<loaded />
+	</extension>
+	<extension name="5E_Ref_Decal">
+		<loaded />
+	</extension>
+	<extension name="Decal_MM">
 		<loaded />
 	</extension>
 </extensionstate>

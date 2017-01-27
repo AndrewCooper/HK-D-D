@@ -113,6 +113,34 @@
 				</slot>
 			</data>
 		</key>
+		<key number="8">
+			<description>Reidoth</description>
+			<icon>button_link</icon>
+			<dbref>npc.id-00015</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>npc</class>
+						<datasource>npc.id-00015</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
+		<key number="9">
+			<description>Bronselyn</description>
+			<icon>button_link</icon>
+			<dbref>npc.id-00002</dbref>
+			<data>
+				<type>shortcut</type>
+				<slot number="0">
+					<shortcut>
+						<class>npc</class>
+						<datasource>npc.id-00002</datasource>
+					</shortcut>
+				</slot>
+			</data>
+		</key>
 	</bank>
 	<bank number="1">
 	</bank>

@@ -51,7 +51,6 @@
 							<id>1</id>
 							<x>340</x>
 							<y>265</y>
-							<name>Acilper</name>
 							<visibilitylocked>on</visibilitylocked>
 						</token>
 						<token>
@@ -59,7 +58,6 @@
 							<id>2</id>
 							<x>363</x>
 							<y>503</y>
-							<name>Dorgib</name>
 							<visibilitylocked>on</visibilitylocked>
 						</token>
 						<token>
