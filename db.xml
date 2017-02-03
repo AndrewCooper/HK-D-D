@@ -2096,11 +2096,11 @@
 				</charisma>
 				<constitution>
 					<holder name="jarodmerle" owner="true" />
-					<bonus type="number">0</bonus>
-					<save type="number">0</save>
+					<bonus type="number">4</bonus>
+					<save type="number">4</save>
 					<savemodifier type="number">0</savemodifier>
 					<saveprof type="number">0</saveprof>
-					<score type="number">10</score>
+					<score type="number">19</score>
 				</constitution>
 				<dexterity>
 					<holder name="jarodmerle" owner="true" />
@@ -2151,7 +2151,7 @@
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
 					<casterpactmagic type="number">0</casterpactmagic>
 					<hddie type="dice">d8</hddie>
-					<hdused type="number">0</hdused>
+					<hdused type="number">2</hdused>
 					<level type="number">4</level>
 					<name type="string">Bard</name>
 					<shortcut type="windowreference">
@@ -2331,8 +2331,8 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
-				<total type="number">23</total>
-				<wounds type="number">12</wounds>
+				<total type="number">39</total>
+				<wounds type="number">13</wounds>
 			</hp>
 			<ideals type="string">Equality. We all bleed red, we all suffer together \nStatus Quo. Status is defined by clear rules which are the foundation of civilization. (Lawful)</ideals>
 			<initiative>
@@ -2861,7 +2861,6 @@
 					<max type="number">0</max>
 				</spellslots9>
 			</powermeta>
-			<powermode type="string">standard</powermode>
 			<powers>
 				<holder name="jarodmerle" owner="true" />
 				<id-00001>
@@ -2990,7 +2989,7 @@
 							<type type="string">effect</type>
 						</id-00001>
 					</actions>
-					<cast type="number">1</cast>
+					<cast type="number">2</cast>
 					<description type="formattedtext">
 						<p></p>
 					</description>
@@ -3355,7 +3354,7 @@
 							<type type="string">effect</type>
 						</id-00002>
 					</actions>
-					<cast type="number">0</cast>
+					<cast type="number">1</cast>
 					<castingtime type="string">1 action</castingtime>
 					<components type="string">V, S</components>
 					<description type="formattedtext">
@@ -3655,7 +3654,7 @@
 				<holder name="jarodmerle" owner="true" />
 				<id-00003>
 					<holder name="jarodmerle" owner="true" />
-					<ammo type="number">0</ammo>
+					<ammo type="number">2</ammo>
 					<attackbonus type="number">0</attackbonus>
 					<attackstat type="string">dexterity</attackstat>
 					<carried type="number">1</carried>
@@ -3834,7 +3833,7 @@
 				<encumbered type="number">85</encumbered>
 				<encumberedheavy type="number">170</encumberedheavy>
 				<liftpushdrag type="number">510</liftpushdrag>
-				<load type="number">144</load>
+				<load type="number">150</load>
 				<max type="number">255</max>
 			</encumbrance>
 			<exp type="number">2874</exp>
@@ -3966,6 +3965,26 @@
 			</initiative>
 			<inventorylist>
 				<holder name="Alex" owner="true" />
+				<id-00001>
+					<holder name="Alex" owner="true" />
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">2</carried>
+					<cost type="string">5 sp</cost>
+					<count type="number">3</count>
+					<damage type="string">1d6 piercing</damage>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Javelin</name>
+					<properties type="string">Thrown (range 30/120)</properties>
+					<subtype type="string">Simple Melee Weapons</subtype>
+					<type type="string">Weapon</type>
+					<weight type="number">2</weight>
+				</id-00001>
 				<id-00002>
 					<holder name="Alex" owner="true" />
 					<ac type="number">0</ac>
@@ -4665,6 +4684,29 @@
 			</traitlist>
 			<weaponlist>
 				<holder name="Alex" owner="true" />
+				<id-00001>
+					<holder name="Alex" owner="true" />
+					<attackbonus type="number">0</attackbonus>
+					<carried type="number">2</carried>
+					<damagelist>
+						<holder name="Alex" owner="true" />
+						<id-00001>
+							<holder name="Alex" owner="true" />
+							<bonus type="number">0</bonus>
+							<dice type="dice">d6</dice>
+							<stat type="string">base</stat>
+							<type type="string">piercing</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<name type="string">Javelin</name>
+					<prof type="number">1</prof>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00001</recordname>
+					</shortcut>
+					<type type="number">0</type>
+				</id-00001>
 				<id-00002>
 					<holder name="Alex" owner="true" />
 					<attackbonus type="number">0</attackbonus>
@@ -4713,6 +4755,29 @@
 					</shortcut>
 					<type type="number">2</type>
 				</id-00003>
+				<id-00004>
+					<holder name="Alex" owner="true" />
+					<attackbonus type="number">0</attackbonus>
+					<carried type="number">2</carried>
+					<damagelist>
+						<holder name="Alex" owner="true" />
+						<id-00001>
+							<holder name="Alex" owner="true" />
+							<bonus type="number">0</bonus>
+							<dice type="dice">d6</dice>
+							<stat type="string">base</stat>
+							<type type="string">piercing</type>
+						</id-00001>
+					</damagelist>
+					<isidentified type="number">1</isidentified>
+					<name type="string">Javelin</name>
+					<prof type="number">1</prof>
+					<shortcut type="windowreference">
+						<class>item</class>
+						<recordname>....inventorylist.id-00001</recordname>
+					</shortcut>
+					<type type="number">2</type>
+				</id-00004>
 				<id-00005>
 					<holder name="Alex" owner="true" />
 					<attackbonus type="number">1</attackbonus>
@@ -4829,7 +4894,7 @@
 					<casterlevelinvmult type="number">1</casterlevelinvmult>
 					<casterpactmagic type="number">1</casterpactmagic>
 					<hddie type="dice">d8</hddie>
-					<hdused type="number">1</hdused>
+					<hdused type="number">2</hdused>
 					<level type="number">4</level>
 					<name type="string">Warlock</name>
 					<shortcut type="windowreference">
@@ -4874,13 +4939,13 @@
 				<holder name="Tymenos" owner="true" />
 				<ac>
 					<holder name="Tymenos" owner="true" />
-					<armor type="number">1</armor>
+					<armor type="number">2</armor>
 					<disstealth type="number">0</disstealth>
-					<misc type="number">0</misc>
+					<misc type="number">1</misc>
 					<prof type="number">1</prof>
 					<shield type="number">0</shield>
 					<temporary type="number">0</temporary>
-					<total type="number">12</total>
+					<total type="number">14</total>
 				</ac>
 			</defenses>
 			<encumbrance>
@@ -4888,7 +4953,7 @@
 				<encumbered type="number">40</encumbered>
 				<encumberedheavy type="number">80</encumberedheavy>
 				<liftpushdrag type="number">240</liftpushdrag>
-				<load type="number">49.08</load>
+				<load type="number">62.08</load>
 				<max type="number">120</max>
 			</encumbrance>
 			<exp type="number">2874</exp>
@@ -5320,7 +5385,7 @@
 				<hdmod type="number">0</hdmod>
 				<temporary type="number">0</temporary>
 				<total type="number">31</total>
-				<wounds type="number">13</wounds>
+				<wounds type="number">4</wounds>
 			</hp>
 			<initiative>
 				<holder name="Tymenos" owner="true" />
@@ -5666,16 +5731,6 @@
 					<name type="string">Small Bottle of Mercury</name>
 					<weight type="number">0</weight>
 				</id-00022>
-				<id-00023>
-					<holder name="Tymenos" owner="true" />
-					<carried type="number">1</carried>
-					<cost type="string">25 gp</cost>
-					<count type="number">1</count>
-					<isidentified type="number">1</isidentified>
-					<locked type="number">1</locked>
-					<name type="string">Small Bottle of Powdered Nightshade</name>
-					<weight type="number">0</weight>
-				</id-00023>
 				<id-00024>
 					<holder name="Tymenos" owner="true" />
 					<carried type="number">1</carried>
@@ -5733,6 +5788,43 @@
 					<name type="string">Gundren's Map of Wave Echo Cave</name>
 					<weight type="number">0</weight>
 				</id-00026>
+				<id-00027>
+					<holder name="Tymenos" owner="true" />
+					<ac type="number">0</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p></p>
+					</description>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Small Bottle of Powdered Nightshade</name>
+					<weight type="number">0</weight>
+				</id-00027>
+				<id-00028>
+					<holder name="Tymenos" owner="true" />
+					<ac type="number">12</ac>
+					<bonus type="number">0</bonus>
+					<carried type="number">2</carried>
+					<cost type="string">45 gp</cost>
+					<count type="number">1</count>
+					<description type="formattedtext">
+						<p>Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.</p>
+						<p>Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes.</p>
+					</description>
+					<dexbonus type="string">Yes</dexbonus>
+					<isidentified type="number">1</isidentified>
+					<istemplate type="number">0</istemplate>
+					<locked type="number">1</locked>
+					<name type="string">Studded Leather</name>
+					<stealth type="string">-</stealth>
+					<strength type="string">-</strength>
+					<subtype type="string">Light Armor</subtype>
+					<type type="string">Armor</type>
+					<weight type="number">13</weight>
+				</id-00028>
 			</inventorylist>
 			<languagelist>
 				<holder name="Tymenos" owner="true" />
@@ -5802,6 +5894,7 @@
 				<pactmagicslots2>
 					<holder name="Tymenos" owner="true" />
 					<max type="number">2</max>
+					<used type="number">2</used>
 				</pactmagicslots2>
 				<pactmagicslots3>
 					<holder name="Tymenos" owner="true" />
@@ -6768,7 +6861,7 @@
 					</charisma>
 					<constitution>
 						<public />
-						<score type="number">10</score>
+						<score type="number">19</score>
 					</constitution>
 					<dexterity>
 						<public />
@@ -6799,9 +6892,9 @@
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">23</hptotal>
+				<hptotal type="number">39</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">21</initresult>
+				<initresult type="number">9</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -6826,17 +6919,19 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Heavy</status>
+				<status type="string">Moderate</status>
 				<targets>
 					<public />
 				</targets>
 				<token type="token">portrait_id-00001_token</token>
+				<tokenrefid type="string">54</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">12</wounds>
+				<wounds type="number">13</wounds>
 			</id-00001>
 			<id-00002>
 				<public />
@@ -6881,7 +6976,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">44</hptotal>
 				<init type="number">3</init>
-				<initresult type="number">4</initresult>
+				<initresult type="number">16</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -6911,6 +7006,8 @@
 					<public />
 				</targets>
 				<token type="token">portrait_id-00002_token</token>
+				<tokenrefid type="string">53</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
@@ -6993,13 +7090,13 @@
 						<label type="string">RESIST: poison</label>
 					</id-00001>
 				</effects>
-				<friendfoe type="string">friend</friendfoe>
+				<friendfoe type="string">neutral</friendfoe>
 				<hd type="string">5d8 + 10</hd>
 				<hp type="number">40</hp>
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">33</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">4</initresult>
+				<initresult type="number">0</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -7029,7 +7126,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Moderate</status>
+				<status type="string">Light</status>
 				<text type="formattedtext">
 					<p>Cousin of Gundren Rockseeker, Brosenelyn manages the caravan teams running supplies between Neverwinter and Phandalin.</p>
 					<p>The party rides with her on their initial journey to Phandalin, when they find the remains of Gundren and SIldar's horses and Gundren's empty map case.</p>
@@ -7041,7 +7138,7 @@
 					<public />
 				</traits>
 				<type type="string">humanoid (hill dwarf)</type>
-				<wounds type="number">11</wounds>
+				<wounds type="number">3</wounds>
 				<xp type="number">700</xp>
 			</id-00003>
 			<id-00004>
@@ -7104,7 +7201,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">24</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">3</initresult>
+				<initresult type="number">18</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -7189,6 +7286,9 @@
 					</id-00009>
 				</spells>
 				<status type="string">Healthy</status>
+				<targets>
+					<public />
+				</targets>
 				<text type="formattedtext">
 					<h>Druid</h>
 					<linklist>
@@ -7197,6 +7297,8 @@
 					<p>Druids dwell in forests and other secluded wilderness locations, where they protect the natural world from monsters and the encroachment of civilization. Some are tribal shamans who heal the sick, pray to animal spirits, and provide spiritual guidance.</p>
 				</text>
 				<token type="token">tokens/druid.png@DD MM Monster Manual</token>
+				<tokenrefid type="string">55</tokenrefid>
+				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1</tokenscale>
 				<tokenvis type="number">0</tokenvis>
 				<traits>
@@ -7212,131 +7314,6 @@
 				<wounds type="number">0</wounds>
 				<xp type="number">450</xp>
 			</id-00004>
-			<id-00005>
-				<public />
-				<abilities>
-					<public />
-					<charisma>
-						<public />
-						<bonus type="number">-2</bonus>
-						<score type="number">7</score>
-					</charisma>
-					<constitution>
-						<public />
-						<bonus type="number">3</bonus>
-						<score type="number">16</score>
-					</constitution>
-					<dexterity>
-						<public />
-						<bonus type="number">0</bonus>
-						<score type="number">10</score>
-					</dexterity>
-					<intelligence>
-						<public />
-						<bonus type="number">-4</bonus>
-						<score type="number">2</score>
-					</intelligence>
-					<strength>
-						<public />
-						<bonus type="number">4</bonus>
-						<score type="number">19</score>
-					</strength>
-					<wisdom>
-						<public />
-						<bonus type="number">1</bonus>
-						<score type="number">13</score>
-					</wisdom>
-				</abilities>
-				<ac type="number">11</ac>
-				<actext type="string">(natural armor)</actext>
-				<actions>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The bear makes two attacks: one with its bite and one with its claws.</desc>
-						<name type="string">Multiattack</name>
-						<value type="string">Multiattack</value>
-					</id-00001>
-					<id-00002>
-						<public />
-						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.</desc>
-						<name type="string">Bite</name>
-						<value type="string">Bite [M] [ATK: +5] [DMG: 1d8+4 piercing]</value>
-					</id-00002>
-					<id-00003>
-						<public />
-						<desc type="string">Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) slashing damage.</desc>
-						<name type="string">Claws</name>
-						<value type="string">Claws [M] [ATK: +5] [DMG: 2d6+4 slashing]</value>
-					</id-00003>
-				</actions>
-				<active type="number">0</active>
-				<alignment type="string">unaligned</alignment>
-				<cr type="string">1</cr>
-				<deathsavefail type="number">0</deathsavefail>
-				<deathsavesuccess type="number">0</deathsavesuccess>
-				<effects>
-					<public />
-				</effects>
-				<friendfoe type="string">friend</friendfoe>
-				<hd type="string">(4d10 + 12)</hd>
-				<hp type="number">34</hp>
-				<hptemp type="number">0</hptemp>
-				<hptotal type="number">36</hptotal>
-				<init type="number">0</init>
-				<initresult type="number">3</initresult>
-				<innatespells>
-					<public />
-				</innatespells>
-				<lairactions>
-					<public />
-				</lairactions>
-				<languages type="string">-</languages>
-				<legendaryactions>
-					<public />
-				</legendaryactions>
-				<link type="windowreference">
-					<class>npc</class>
-					<recordname></recordname>
-				</link>
-				<locked type="number">1</locked>
-				<name type="string">Brown Bear (Reidoth)</name>
-				<reach type="number">5</reach>
-				<reaction type="number">0</reaction>
-				<reactions>
-					<public />
-				</reactions>
-				<senses type="string">passive Perception 13</senses>
-				<size type="string">Large</size>
-				<skills type="string">Perception +3</skills>
-				<space type="number">10</space>
-				<speed type="string">40 ft., climb 30 ft.</speed>
-				<spells>
-					<public />
-				</spells>
-				<status type="string">Critical</status>
-				<targets>
-					<public />
-				</targets>
-				<text type="formattedtext">
-					<p></p>
-				</text>
-				<token type="token">tokens/B.png@DD MM Monster Manual</token>
-				<tokenscale type="number">1</tokenscale>
-				<tokenvis type="number">0</tokenvis>
-				<traits>
-					<public />
-					<id-00001>
-						<public />
-						<desc type="string">The bear has advantage on Wisdom (Perception) checks that rely on smell.</desc>
-						<name type="string">Keen Smell</name>
-						<value type="string">Keen smell</value>
-					</id-00001>
-				</traits>
-				<type type="string">beast</type>
-				<wounds type="number">33</wounds>
-				<xp type="number">200</xp>
-			</id-00005>
 			<id-00006>
 				<public />
 				<abilities>
@@ -7366,7 +7343,7 @@
 						<score type="number">14</score>
 					</wisdom>
 				</abilities>
-				<ac type="number">12</ac>
+				<ac type="number">14</ac>
 				<actions>
 					<public />
 				</actions>
@@ -7375,12 +7352,28 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
+					<id-00002>
+						<public />
+						<duration type="number">0</duration>
+						<init type="number">20</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">0</isgmonly>
+						<label type="string">DMG: 1d6 necrotic; (C)</label>
+						<source_name type="string">combattracker.list.id-00006</source_name>
+						<targets>
+							<public />
+							<id-00001>
+								<public />
+								<noderef type="string">combattracker.list.id-00033</noderef>
+							</id-00001>
+						</targets>
+					</id-00002>
 				</effects>
 				<friendfoe type="string">friend</friendfoe>
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">31</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">11</initresult>
+				<initresult type="number">20</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -7405,7 +7398,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Moderate</status>
+				<status type="string">Light</status>
 				<token type="token">portrait_id-00003_token</token>
 				<tokenrefid type="string">51</tokenrefid>
 				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
@@ -7414,7 +7407,7 @@
 				<traits>
 					<public />
 				</traits>
-				<wounds type="number">13</wounds>
+				<wounds type="number">4</wounds>
 			</id-00006>
 			<id-00009>
 				<public />
@@ -9432,7 +9425,7 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Dying</status>
+				<status type="string">Dead</status>
 				<targets>
 					<public />
 				</targets>
@@ -9541,7 +9534,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">35</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">8</initresult>
+				<initresult type="number">0</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -9582,7 +9575,7 @@
 				<tokenrefid type="string">34</tokenrefid>
 				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">1.25</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
@@ -9796,7 +9789,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">7</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">12</initresult>
+				<initresult type="number">0</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -9838,7 +9831,7 @@
 				<tokenrefid type="string">36</tokenrefid>
 				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">2.5</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
@@ -9918,7 +9911,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">8</hptotal>
 				<init type="number">2</init>
-				<initresult type="number">17</initresult>
+				<initresult type="number">0</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -9960,7 +9953,7 @@
 				<tokenrefid type="string">37</tokenrefid>
 				<tokenrefnode type="string">image.img_cragmawcastle_player__jpg.image@DD Lost Mine of Phandelver</tokenrefnode>
 				<tokenscale type="number">2.5</tokenscale>
-				<tokenvis type="number">1</tokenvis>
+				<tokenvis type="number">0</tokenvis>
 				<traits>
 					<public />
 					<id-00001>
@@ -10039,6 +10032,15 @@
 				<deathsavesuccess type="number">0</deathsavesuccess>
 				<effects>
 					<public />
+					<id-00002>
+						<public />
+						<duration type="number">8</duration>
+						<init type="number">9</init>
+						<isactive type="number">1</isactive>
+						<isgmonly type="number">0</isgmonly>
+						<label type="string">Restrained; (C)</label>
+						<source_name type="string">combattracker.list.id-00001</source_name>
+					</id-00002>
 				</effects>
 				<friendfoe type="string">foe</friendfoe>
 				<hd type="string">(7d10 + 21)</hd>
@@ -10046,7 +10048,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">65</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">9</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -10076,7 +10078,10 @@
 				<spells>
 					<public />
 				</spells>
-				<status type="string">Healthy</status>
+				<status type="string">Dying</status>
+				<targets>
+					<public />
+				</targets>
 				<text type="formattedtext">
 					<h>Owlbear</h>
 					<linklist>
@@ -10101,7 +10106,7 @@
 					</id-00001>
 				</traits>
 				<type type="string">monstrosity</type>
-				<wounds type="number">0</wounds>
+				<wounds type="number">65</wounds>
 				<xp type="number">700</xp>
 			</id-00033>
 			<id-00034>
@@ -10170,7 +10175,7 @@
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">10</hptotal>
 				<init type="number">1</init>
-				<initresult type="number">0</initresult>
+				<initresult type="number">6</initresult>
 				<innatespells>
 					<public />
 				</innatespells>
@@ -10286,7 +10291,7 @@
 					<public />
 					<id-00001>
 						<public />
-						<duration type="number">8</duration>
+						<duration type="number">5</duration>
 						<init type="number">3</init>
 						<isactive type="number">1</isactive>
 						<isgmonly type="number">0</isgmonly>
@@ -10537,7 +10542,7 @@
 					<public />
 					<id-00001>
 						<public />
-						<duration type="number">8</duration>
+						<duration type="number">5</duration>
 						<init type="number">3</init>
 						<isactive type="number">1</isactive>
 						<isgmonly type="number">0</isgmonly>
@@ -11094,7 +11099,7 @@
 				<xp type="number">100</xp>
 			</id-00041>
 		</list>
-		<round type="number">5</round>
+		<round type="number">9</round>
 	</combattracker>
 	<effects>
 		<public />
@@ -12931,7 +12936,7 @@
 		<NNPC type="string">append</NNPC>
 		<PSIN type="string">on</PSIN>
 		<PSMN type="string">on</PSMN>
-		<REVL type="string">on</REVL>
+		<REVL type="string">off</REVL>
 		<RSHE type="string">on</RSHE>
 		<SHNPC type="string">detailed</SHNPC>
 		<SHRR type="string">on</SHRR>
@@ -12939,7 +12944,7 @@
 		<TBOX type="string">on</TBOX>
 		<TEMPMEASURE type="string">fahrenheit</TEMPMEASURE>
 		<TNAM type="string">tooltip</TNAM>
-		<TNPCH type="string">bar</TNPCH>
+		<TNPCH type="string">dot</TNPCH>
 		<TOTL type="string">on</TOTL>
 		<TPCE type="string">on</TPCE>
 		<TPCH type="string">bar</TPCH>
@@ -14320,16 +14325,16 @@
 				<chabonus type="number">3</chabonus>
 				<charisma type="number">16</charisma>
 				<classlevel type="string">Bard 4</classlevel>
-				<conbonus type="number">0</conbonus>
-				<constitution type="number">10</constitution>
+				<conbonus type="number">4</conbonus>
+				<constitution type="number">19</constitution>
 				<dexbonus type="number">2</dexbonus>
 				<dexterity type="number">14</dexterity>
 				<exp type="number">2874</exp>
 				<expneeded type="number">2700</expneeded>
 				<hd type="number">4</hd>
-				<hdused type="number">0</hdused>
+				<hdused type="number">2</hdused>
 				<hptemp type="number">0</hptemp>
-				<hptotal type="number">23</hptotal>
+				<hptotal type="number">39</hptotal>
 				<intbonus type="number">-1</intbonus>
 				<intelligence type="number">9</intelligence>
 				<link type="windowreference">
@@ -14349,7 +14354,7 @@
 				<watchid type="number">2</watchid>
 				<wisbonus type="number">2</wisbonus>
 				<wisdom type="number">14</wisdom>
-				<wounds type="number">12</wounds>
+				<wounds type="number">13</wounds>
 			</id-00001>
 			<id-00002>
 				<public />
@@ -14390,7 +14395,7 @@
 			</id-00002>
 			<id-00003>
 				<public />
-				<ac type="number">12</ac>
+				<ac type="number">14</ac>
 				<chabonus type="number">4</chabonus>
 				<charisma type="number">18</charisma>
 				<classlevel type="string">Warlock 4</classlevel>
@@ -14401,7 +14406,7 @@
 				<exp type="number">2874</exp>
 				<expneeded type="number">2700</expneeded>
 				<hd type="number">4</hd>
-				<hdused type="number">1</hdused>
+				<hdused type="number">2</hdused>
 				<hptemp type="number">0</hptemp>
 				<hptotal type="number">31</hptotal>
 				<intbonus type="number">2</intbonus>
@@ -14423,7 +14428,7 @@
 				<watchid type="number">1</watchid>
 				<wisbonus type="number">2</wisbonus>
 				<wisdom type="number">14</wisdom>
-				<wounds type="number">13</wounds>
+				<wounds type="number">4</wounds>
 			</id-00003>
 		</partyinformation>
 		<quests>
